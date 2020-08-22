@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="admob_app_id" translatable="false"></string>
+    <string name="admob_banner_id" translatable="false"></string>
+    <string name="app_name" translatable="false">Game All</string>
+    <string name="authority" translatable="false">com.siragu.gameall.fileprovider</string>
+
+    <color name="colorAccent">#F4B41A</color>
+    <color name="colorPrimary">#30456E</color>
+    <color name="colorPrimaryDark">#30456E</color>
+
+    <string name="dynamic_link_domain" translatable="false"></string>
+    <string name="facebook_app_id" translatable="false"></string>
+    <string name="fb_login_protocol_scheme" translatable="false"></string>
+    <string name="support_email" translatable="false">opuslabsin@gmail.com</string>
+    <string name="web_client_id" translatable="false">66358306826-vkf7us0c8idsfauslnpcbdgsuheov44p.apps.googleusercontent.com</string>
+
+</resources>

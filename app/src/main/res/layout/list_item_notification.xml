@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    style="@style/CardViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/list_item_notification_desc_img"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/foxy_logo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_person_gray_24dp" />
+
+        <com.siragu.gameall.view.MontserratMediumTextView
+            android:id="@+id/list_item_notification_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toStartOf="@+id/followAction"
+            android:layout_toEndOf="@+id/list_item_notification_desc_img"
+            android:text="Mike"
+            android:textColor="#262627"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <com.siragu.gameall.view.MontserratTextView
+            android:id="@+id/list_item_notification_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_item_notification_status"
+            android:layout_gravity="center"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginBottom="18dp"
+            android:layout_toStartOf="@+id/followAction"
+            android:layout_toEndOf="@+id/list_item_notification_desc_img"
+            android:text="Posted 0 seconds ago"
+            android:textColor="#ababab"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/followAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/followActionAccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:src="@drawable/ic_done_primary" />
+
+            <ImageView
+                android:id="@+id/followActionReject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:src="@drawable/ic_close_accent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

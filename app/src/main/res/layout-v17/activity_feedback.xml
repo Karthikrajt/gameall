@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.siragu.gameall.view.MontserratTextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/ic_keyboard_arrow_left"
+        android:gravity="center_vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="LEAVE FEEDBACK"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.siragu.gameall.view.MontserratTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="@string/feedback_heading_1"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="18sp" />
+
+            <com.siragu.gameall.view.MontserratTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="@string/feedback_heading_2"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:background="@drawable/angular_grey_box"
+                android:gravity="top|start"
+                android:hint="Write your feedback"
+                android:padding="16dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.siragu.gameall.view.MontserratTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/angular_pink_box"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Submit now"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

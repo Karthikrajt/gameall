@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorText">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_msg_time_color">#C6C6C6</color>
+    <color name="card_msg_time_color_me">#ABD6FE</color>
+    <color name="card_msg_color_background">#3da3ff</color>
+
+    <color name="colorBgLight">#EEEEEE</color>
+    <color name="textColor1">#727272</color>
+    <color name="textColor3">#b6b6b6</color>
+    <color name="textColor4">#5A5A5A</color>
+    <color name="textColor5">#767676</color>
+
+    <color name="light_gray">#f7f7f7</color>
+    <color name="gray">#e0e0e0</color>
+    <color name="bg_gray">#e8e8e8</color>
+
+    <color name="text_below">#666</color>
+
+    <color name="trans_black_light">#33424242</color>
+    <color name="trans_black_dark">#66424242</color>
+
+</resources>

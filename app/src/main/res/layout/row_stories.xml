@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="47dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="14dp"
+    android:layout_marginRight="14dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/idProductImage"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/storyProgress"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/addIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_gray_transparent"
+            android:padding="4dp"
+            android:src="@drawable/ic_add_black_24dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/idProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="safsadfg"
+        android:textColor="#4d4d4d"
+        android:textSize="8sp" />
+</LinearLayout>
