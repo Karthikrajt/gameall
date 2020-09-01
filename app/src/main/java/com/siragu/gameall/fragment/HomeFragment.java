@@ -28,6 +28,7 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         viewPager = view.findViewById(R.id.activity_profile_view_pager);
         tabLayout = view.findViewById(R.id.frag_profile_tab_layout);
+        tabLayout.setVisibility(View.GONE);
         return view;
     }
 
@@ -39,9 +40,10 @@ public class HomeFragment extends Fragment {
 
     private void initViewPager() {
         UniversalPagerAdapter adapter = new UniversalPagerAdapter(getChildFragmentManager());
-        adapter.addFrag(HomeFeedsFragment.newInstance("hot", "-1", true), getString(R.string.title_feeds_public));
-        adapter.addFrag(HomeFeedsFragment.newInstance("feed", "-1", false), getString(R.string.title_feeds_private));
+            adapter.addFrag(HomeFeedsFragment.newInstance("hot", "-1", true), getString(R.string.title_feeds_public));
+        //  adapter.addFrag(HomeFeedsFragment.newInstance("feed", "-1", false), getString(R.string.title_feeds_private));
         viewPager.setAdapter(adapter);
+        
         tabLayout.setupWithViewPager(viewPager);
         reduceMarginsInTabs(tabLayout, (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 25f, getResources().getDisplayMetrics()));
     }

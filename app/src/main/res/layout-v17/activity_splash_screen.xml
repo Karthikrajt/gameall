@@ -82,6 +82,29 @@
                 android:gravity="center" />
         </LinearLayout>
 
+        <RadioGroup
+            android:id="@+id/radiogroup_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checkedButton="@id/radioButton"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Customer" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Shopper" />
+        </RadioGroup>
+
         <ProgressBar
             android:id="@+id/authProgress"
             style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"

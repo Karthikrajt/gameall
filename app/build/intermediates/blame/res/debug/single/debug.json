@@ -512,6 +512,10 @@
         "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_video_24dp.png"
     },
     {
+        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\menu_nosearch.xml.flat",
+        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\menu\\nosearch.xml"
+    },
+    {
         "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\activity_main.xml"
     },

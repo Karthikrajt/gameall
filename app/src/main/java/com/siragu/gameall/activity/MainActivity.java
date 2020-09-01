@@ -25,6 +25,7 @@ import androidx.fragment.app.FragmentManager;
 
 
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.gson.Gson;
 import com.onesignal.OneSignal;
 import com.siragu.gameall.BuildConfig;
 import com.siragu.gameall.adapter.UniversalPagerAdapter;
@@ -38,6 +39,8 @@ import com.siragu.gameall.fragment.ProfileFragment;
 import com.siragu.gameall.fragment.SearchUserFragment;
 import com.siragu.gameall.listener.OnFragmentStateChangeListener;
 import com.siragu.gameall.R;
+import com.siragu.gameall.model.Chat;
+import com.siragu.gameall.network.response.ProfileResponse;
 import com.siragu.gameall.network.response.UserResponse;
 import com.siragu.gameall.util.Constants;
 import com.siragu.gameall.util.Helper;
@@ -101,6 +104,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvTitle.setText(getString(R.string.app_name).toUpperCase());
         //tvTitle.setTypeface(Helper.getMontserratBold(this));
 
+        if(Constants.Shoppker == true) {
+            bottomImageViews[2].setVisibility(View.GONE);
+        }else
+        {
+            bottomImageViews[2].setVisibility(View.VISIBLE);
+        }
+
         sharedPreferenceUtil = new SharedPreferenceUtil(this);
 
         adapter = new UniversalPagerAdapter(getSupportFragmentManager());
@@ -118,6 +128,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (BuildConfig.IS_DEMO) {
             actionBuy.setVisibility(View.VISIBLE);
         }
+
+
+
     }
 
     @Override
@@ -158,54 +171,81 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+
+
+        getMenuInflater().inflate(R.menu.nosearch, menu);
         this.menuSearch = menu.getItem(0);
-
-        final SearchView searchView = (SearchView) this.menuSearch.getActionView();
-
-        EditText searchEditText = searchView.findViewById(androidx.appcompat.R.id.search_src_text);
-        searchEditText.setTextColor(getResources().getColor(R.color.white));
-        searchEditText.setHintTextColor(Color.parseColor("#cacaca"));
-        searchEditText.setHint(getString(R.string.hint_search_users));
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+        Context c;
+        c = this;
+        this.menuSearch.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
-            public boolean onQueryTextSubmit(String query) {
-                if (getSupportFragmentManager().findFragmentByTag(FRAG_TAG_SEARCH_USER) == null) {
-                    searchUserFragment = SearchUserFragment.newInstance(query);
-                    getSupportFragmentManager()
-                            .beginTransaction()
-                            .setCustomAnimations(R.anim.bottom_up, R.anim.bottom_down, R.anim.bottom_up, R.anim.bottom_down)
-                            .add(R.id.frameLayout, searchUserFragment, FRAG_TAG_SEARCH_USER)
-                            .addToBackStack(null)
-                            .commit();
-                } else {
-                    searchUserFragment = (SearchUserFragment) getSupportFragmentManager().findFragmentByTag(FRAG_TAG_SEARCH_USER);
-                    searchUserFragment.newQuery(query);
-                }
-                InputMethodManager in = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                in.hideSoftInputFromWindow(searchView.getWindowToken(), 0);
-                return true;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(c, BookmarksActivity.class));
                 return false;
             }
         });
-        menuSearch.setOnActionExpandListener(new MenuItem.OnActionExpandListener() {
-            @Override
-            public boolean onMenuItemActionExpand(MenuItem menuItem) {
-                return true;
-            }
 
-            @Override
-            public boolean onMenuItemActionCollapse(MenuItem menuItem) {
-                if (getSupportFragmentManager().findFragmentByTag(FRAG_TAG_SEARCH_USER) != null)
-                    getSupportFragmentManager().popBackStackImmediate();
-                return true;
-            }
-        });
+      /*  if(Constants.Shoppker == true) {
 
+            getMenuInflater().inflate(R.menu.nosearch, menu);
+            this.menuSearch = menu.getItem(0);
+            Context c;
+            c = this;
+            this.menuSearch.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+                @Override
+                public boolean onMenuItemClick(MenuItem item) {
+                    startActivity(new Intent(c, BookmarksActivity.class));
+                    return false;
+                }
+            });
+        }else {
+            getMenuInflater().inflate(R.menu.menu_main, menu);
+            this.menuSearch = menu.getItem(0);
+
+            //  this.menuSearch.setVisible(false);
+            final SearchView searchView = (SearchView) this.menuSearch.getActionView();
+            //  searchView.setVisibility(View.GONE);
+            EditText searchEditText = searchView.findViewById(androidx.appcompat.R.id.search_src_text);
+            searchEditText.setTextColor(getResources().getColor(R.color.white));
+            searchEditText.setHintTextColor(Color.parseColor("#cacaca"));
+            searchEditText.setHint(getString(R.string.hint_search_users));
+            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                @Override
+                public boolean onQueryTextSubmit(String query) {
+                    if (getSupportFragmentManager().findFragmentByTag(FRAG_TAG_SEARCH_USER) == null) {
+                        searchUserFragment = SearchUserFragment.newInstance(query);
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .setCustomAnimations(R.anim.bottom_up, R.anim.bottom_down, R.anim.bottom_up, R.anim.bottom_down)
+                                .add(R.id.frameLayout, searchUserFragment, FRAG_TAG_SEARCH_USER)
+                                .addToBackStack(null)
+                                .commit();
+                    } else {
+                        searchUserFragment = (SearchUserFragment) getSupportFragmentManager().findFragmentByTag(FRAG_TAG_SEARCH_USER);
+                        searchUserFragment.newQuery(query);
+                    }
+                    InputMethodManager in = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                    in.hideSoftInputFromWindow(searchView.getWindowToken(), 0);
+                    return true;
+                }
+                @Override
+                public boolean onQueryTextChange(String newText) {
+                    return false;
+                }
+            });
+            menuSearch.setOnActionExpandListener(new MenuItem.OnActionExpandListener() {
+                @Override
+                public boolean onMenuItemActionExpand(MenuItem menuItem) {
+                    return true;
+                }
+                @Override
+                public boolean onMenuItemActionCollapse(MenuItem menuItem) {
+                    if (getSupportFragmentManager().findFragmentByTag(FRAG_TAG_SEARCH_USER) != null)
+                        getSupportFragmentManager().popBackStackImmediate();
+                    return true;
+                }
+            });
+        }*/
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -294,14 +334,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                getSupportActionBar().setTitle(adapter.getPageTitle(currentItem));
                 //bottomImageViews[i].setBackgroundResource(R.drawable.top_border_primary_dark);
                 bottomImageViews[i].setAlpha(1f);
+
+
+
             } else if (i != 2) {
                 //bottomImageViews[i].setBackgroundResource(0);
                 bottomImageViews[i].setAlpha(0.4f);
             }
         }
         if (menuSearch != null) {
-            menuSearch.setVisible(index == 0);
+           menuSearch.setVisible(index == 0);
+         //  menuSearch.setVisible(false);
         }
+
+
+
     }
 
     public void onHomeTabClicked() {
@@ -434,17 +481,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 onAddTabClicked();
                 break;
             case R.id.bottom_bar_tab2:
-                selectTabIndex(1);
+                if(Constants.Shoppker != true) {
+                    selectTabIndex(1);
+                }else
+                {
+                    Gson gson = new Gson();
+                    UserResponse userMe;
+                    sharedPreferenceUtil = new SharedPreferenceUtil(this);
+                    userMe = Helper.getLoggedInUser(sharedPreferenceUtil);
+                    String user_details = "{\"comment_count\":1,\"dislike_count\":0,\"like_count\":3,\"posts_count\":2,\"created_at\":\"2020-08-22 19:38:12\",\"followers_count\":1,\"following_count\":1,\"gender\":\"m\",\"id\":5,\"image\":\"https://lh3.googleusercontent.com/a-/AOh14Gjj2MT_yOKjWXqnilQK2PkOe8PRVC17daPbRB4QDg\\u003ds96-c\",\"is_admin\":0,\"is_follow_requested\":0,\"is_following\":1,\"is_private\":0,\"name\":\"Vigneshwaran Thangavelu\",\"notification_on_comment\":true,\"notification_on_dislike\":true,\"notification_on_like\":true,\"storyUpdateProgress\":false,\"updated_at\":\"2020-08-22 19:38:12\",\"user_id\":\"vO1SoD4jRlex7zmjoiOpewdtLTi1\"}\n";
+                    ProfileResponse userProfile = gson.fromJson(user_details, ProfileResponse.class);
+                    startActivity(MessagesActivity.newIntent(this, new Chat(userMe, userProfile)));
+                }
                 break;
             case R.id.bottom_bar_tab1:
                 selectTabIndex(0);
                 break;
             case R.id.bottom_bar_tab5:
-                selectTabIndex(4);
+               // selectTabIndex(4);
+                startActivity(new Intent(this, SettingsActivity.class));
+
                 break;
             case R.id.bottom_bar_tab4:
                 selectTabIndex(3);
                 break;
+
+
             case R.id.actionBuy:
                 if (!TextUtils.isEmpty(BuildConfig.DEMO_ACTION_LINK)) {
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(BuildConfig.DEMO_ACTION_LINK)));

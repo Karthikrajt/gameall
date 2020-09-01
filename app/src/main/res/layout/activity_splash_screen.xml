@@ -37,10 +37,10 @@
         android:layout_gravity="bottom"
         android:background="@color/light_gray"
         android:orientation="vertical"
-        android:paddingBottom="32dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:paddingTop="32dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="32dp"
         android:visibility="invisible">
 
         <TextView
@@ -58,7 +58,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-           <!-- <com.facebook.login.widget.LoginButton xmlns:facebook="http://schemas.android.com/apk/res-auto"
+            <!-- <com.facebook.login.widget.LoginButton xmlns:facebook="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/login_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -81,6 +81,29 @@
                 android:layout_weight="1"
                 android:gravity="center" />
         </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radiogroup_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checkedButton="@id/radioButton"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Customer" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Shopper" />
+        </RadioGroup>
 
         <ProgressBar
             android:id="@+id/authProgress"

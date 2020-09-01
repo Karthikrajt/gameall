@@ -205,7 +205,7 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                         .into(holder.foxyImage);
             }
         } else if (commonHolder instanceof StoriesContainerViewHolder) {
-            ((StoriesContainerViewHolder) commonHolder).setData();
+           ((StoriesContainerViewHolder) commonHolder).setData();
         }
     }
 
@@ -254,7 +254,7 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
         if (storyUsers.isEmpty()) {
             ArrayList<UserResponse> toShow = new ArrayList<>();
             toShow.add(userResponse);
-            storyShow(toShow);
+           storyShow(toShow);
         } else if (!storyUsers.contains(userResponse)) {
             storyUsers.add(1, userResponse);
             if (itemsList.isEmpty() || !getItem(0).getId().equalsIgnoreCase("story")) {
@@ -288,6 +288,7 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
             playAll = itemView.findViewById(R.id.playAll);
             storyContainer = itemView.findViewById(R.id.storyContainer);
             recyclerStory = itemView.findViewById(R.id.recyclerStory);
+           // storyContainer.setVisibility(View.GONE);
             playAll.setOnClickListener(v -> {
                 if (storyUsers != null && storyUsers.size() > 1)
                     context.startActivity(StatusActivity.newIntent(context, storyUsers, 1));
@@ -296,6 +297,9 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
 
 
         public void setData() {
+
+
+
             recyclerStory.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false));
             recyclerStory.setNestedScrollingEnabled(false);
             recyclerStory.setAdapter(new StoriesAdapter(storyUsers, context, new StoriesAdapter.StoryClickListener() {
@@ -314,6 +318,7 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                 }
             }));
             playAll.setVisibility((storyUsers != null && storyUsers.size() > 1) ? View.VISIBLE : View.GONE);
+           // playAll.setVisibility(View.GONE);
         }
     }
 

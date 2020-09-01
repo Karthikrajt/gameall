@@ -16,6 +16,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -114,6 +115,9 @@ public class SplashScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
+        Constants.Shoppker = false;
+
         sharedPreferenceUtil = new SharedPreferenceUtil(this);
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         initUi();
@@ -134,6 +138,31 @@ public class SplashScreenActivity extends AppCompatActivity {
                 }
             }
         }, 2000);
+
+
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radiogroup_a);
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+        {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                // checkedId is the RadioButton selected
+                switch(checkedId)
+                {
+                    case R.id.radioButton:
+                        // TODO Something
+                        Constants.Shoppker = true ;
+                        break;
+                    case R.id.radioButton2:
+                        // TODO Something
+                        Constants.Shoppker = false;
+                        break;
+
+                }
+
+            }
+        });
+
+
     }
 
     private void refreshToken(FirebaseUser user) {

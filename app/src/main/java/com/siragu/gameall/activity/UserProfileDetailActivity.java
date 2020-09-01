@@ -29,6 +29,7 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.gson.Gson;
 import com.siragu.gameall.R;
 import com.siragu.gameall.fragment.ConfirmationDialogFragment;
 import com.siragu.gameall.fragment.HomeFeedsFragment;
@@ -209,6 +210,11 @@ public class UserProfileDetailActivity extends AppCompatActivity {
         floatingChatActionButton.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_message_white_24dp));
         floatingChatActionButton.setOnClickListener(v -> {
             if (userProfile != null) {
+                Gson gson = new Gson();
+                String jsonStr = gson.toJson(userProfile);
+
+                Log.d("Chating Details",  jsonStr + "  "+gson.toJson(userMe));
+
                 startActivity(MessagesActivity.newIntent(mContext, new Chat(userMe, userProfile)));
             }
         });

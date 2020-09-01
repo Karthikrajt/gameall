@@ -278,8 +278,10 @@ public class HomeFeedsFragment extends Fragment implements ImagePickerCallback {
             pageNumber = 1;
             homeRecyclerAdapter.clear();
             allDone = false;
-            if (showStory) loadStoryUsers();
-            loadPosts();
+            showStory = false;
+            if (showStory) {
+                loadStoryUsers();
+            }loadPosts();
             emptyView.setVisibility(View.GONE);
             recyclerView.setVisibility(View.VISIBLE);
         }
@@ -331,8 +333,8 @@ public class HomeFeedsFragment extends Fragment implements ImagePickerCallback {
             @Override
             public void onResponse(Call<ArrayList<UserResponse>> call, Response<ArrayList<UserResponse>> response) {
                 if (response.isSuccessful() && mContext != null) {
-                    homeRecyclerAdapter.storyShow(response.body());
-                    recyclerView.smoothScrollToPosition(0);
+                 //   homeRecyclerAdapter.storyShow(response.body());
+                //    recyclerView.smoothScrollToPosition(0);
                 }
             }
 

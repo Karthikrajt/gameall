@@ -138,7 +138,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
                             @Override
                             public void onClick(View view) {
                                 FirebaseAuth.getInstance().signOut();
-                                LoginManager.getInstance().logOut();
+                              //  LoginManager.getInstance().logOut();
                                 logout();
                                 Intent intent = new Intent(SettingsActivity.this, SplashScreenActivity.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

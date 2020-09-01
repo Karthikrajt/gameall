@@ -18,4 +18,6 @@ public class Constants {
     public static final String PROFILE_CHANGE_EVENT = "com.opuslabs.weshare.PROFILE_CHANGE_EVENT";
     public static final String POST_CHANGE_EVENT = "com.opuslabs.weshare.POST_CHANGE_EVENT";
     public static final String POST_NEW_EVENT = "com.opuslabs.weshare.POST_NEW_EVENT";
+    public static Boolean Shoppker = false;
+
 }

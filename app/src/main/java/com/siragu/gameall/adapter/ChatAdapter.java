@@ -7,6 +7,7 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
+import com.google.gson.Gson;
 import com.siragu.gameall.R;
 import com.siragu.gameall.activity.MessagesActivity;
 import com.siragu.gameall.model.Chat;
@@ -115,7 +117,12 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
             itemView.setOnClickListener(v -> {
                 int pos = getAdapterPosition();
                 if (pos != -1) {
+
                     Chat chat = dataList.get(pos);
+                    Gson gson = new Gson();
+                    String jsonStr = gson.toJson(chat);
+
+                    Log.d("Chating Details",  jsonStr);
                     context.startActivity(MessagesActivity.newIntent(context, chat));
                 }
 //                    if (contextualModeInteractor.isContextualMode()) {
