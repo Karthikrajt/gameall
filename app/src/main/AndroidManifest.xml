@@ -24,10 +24,10 @@
         android:usesCleartextTraffic="true"
         tools:ignore="InnerclassSeparator">
 
+
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="YOUR_ADMOB_APP_ID" />
@@ -71,14 +71,18 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activity.MainActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan" />
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".activity.SettingsActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CommentActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".activity.DetailHomeItemActivity"
             android:screenOrientation="portrait"
@@ -115,12 +119,10 @@
             android:name=".activity.StatusActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
-
         <activity
             android:name=".activity.MessagesActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
-
         <activity
             android:name=".activity.BookmarksActivity"
             android:screenOrientation="portrait"

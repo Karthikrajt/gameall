@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-no\\values-no.xml",
+            "outputFile": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-no\\values-no.xml",
             "map": [
                 {
-                    "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\values-no\\strings.xml",
+                    "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\values-no\\strings.xml",
                     "from": {
                         "startLines": "7,78,127,18,72,53,60,74,33,15,126,17,25,65,117,116,32,99,71,50,76,54,110,1,125,100,130,131,129,26,27,66,90,24,49,47,48,87,85,86,81,82,8,55,61,56,97,96,98,11,51,9,105,118,12,13,75,30,31,107,112,37,134,70,69,67,22,133,93,128,20,94,91,80,103,68,95,104,52,46,45,101,57,10,63,113,115,29,39,40,41,42,43,38,34,35,44,28,136,16,64,89,88,102,106,84,122,73,77,114,21,109,121,120,135,111,108,19,59,58,124,132,123,62,119,92,79,36,83",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

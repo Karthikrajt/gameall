@@ -61,6 +61,7 @@ public class CommentsRecyclerAdapter extends EasyRecyclerViewAdapter<Comment> {
         }
 
         holder.postedTime.setText(Helper.timeDiff(dateOfPost));
+        holder.like.setVisibility(View.GONE);
         holder.like.setImageDrawable(ContextCompat.getDrawable(context, currComment.getLiked() == 1 ? R.drawable.ic_thumb_up_accent_12dp : R.drawable.ic_thumb_up_gray_12dp));
     }
 

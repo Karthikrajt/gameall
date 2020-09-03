@@ -1,1 +1,6 @@
-[]
+{
+  "version": 1,
+  "applicationId": "com.siragu.gameall",
+  "variantType": "BASE_APK",
+  "elements": []
+}

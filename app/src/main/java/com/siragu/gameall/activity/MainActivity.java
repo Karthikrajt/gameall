@@ -481,6 +481,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 onAddTabClicked();
                 break;
             case R.id.bottom_bar_tab2:
+                UserResponse profileMe = Helper.getLoggedInUser(new SharedPreferenceUtil(this));
+                if (profileMe != null)
+                    startActivity(EditProfileActivityActivity.newInstance(this, profileMe, false));
+                /*
                 if(Constants.Shoppker != true) {
                     selectTabIndex(1);
                 }else
@@ -492,7 +496,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     String user_details = "{\"comment_count\":1,\"dislike_count\":0,\"like_count\":3,\"posts_count\":2,\"created_at\":\"2020-08-22 19:38:12\",\"followers_count\":1,\"following_count\":1,\"gender\":\"m\",\"id\":5,\"image\":\"https://lh3.googleusercontent.com/a-/AOh14Gjj2MT_yOKjWXqnilQK2PkOe8PRVC17daPbRB4QDg\\u003ds96-c\",\"is_admin\":0,\"is_follow_requested\":0,\"is_following\":1,\"is_private\":0,\"name\":\"Vigneshwaran Thangavelu\",\"notification_on_comment\":true,\"notification_on_dislike\":true,\"notification_on_like\":true,\"storyUpdateProgress\":false,\"updated_at\":\"2020-08-22 19:38:12\",\"user_id\":\"vO1SoD4jRlex7zmjoiOpewdtLTi1\"}\n";
                     ProfileResponse userProfile = gson.fromJson(user_details, ProfileResponse.class);
                     startActivity(MessagesActivity.newIntent(this, new Chat(userMe, userProfile)));
-                }
+                } */
                 break;
             case R.id.bottom_bar_tab1:
                 selectTabIndex(0);

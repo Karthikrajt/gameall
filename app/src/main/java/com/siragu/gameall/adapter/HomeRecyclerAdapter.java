@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -35,6 +36,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.dynamiclinks.DynamicLink;
 import com.google.firebase.dynamiclinks.FirebaseDynamicLinks;
 import com.google.firebase.dynamiclinks.ShortDynamicLink;
+import com.siragu.gameall.activity.CommentActivity;
 import com.siragu.gameall.activity.DetailHomeItemActivity;
 import com.siragu.gameall.activity.StatusActivity;
 import com.siragu.gameall.activity.UserProfileDetailActivity;
@@ -450,8 +452,12 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                             //commentCount.setText(commentString);
                         }
                     };
+                    Log.d("Post Id",postId);
+                 //  Intent intent = new Intent( context, CommentActivity.class);
+                  //context.startActivity(intent);
 
-                    CommentsFragment commentsFragment = CommentsFragment.newInstance(postId, onPopupMenuItemClickListener, onCommentAddListener);
+
+           CommentsFragment commentsFragment = CommentsFragment.newInstance(postId, onPopupMenuItemClickListener, onCommentAddListener);
 
                     fragment.getActivity().getSupportFragmentManager()
                             .beginTransaction()
@@ -514,8 +520,8 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
         public void onClick(View view) {
             switch (view.getId()) {
                 case R.id.userDetailContainer:
-                    UserMeta userMeta = getItem(getLayoutPosition()).getUserMetaData();
-                    context.startActivity(UserProfileDetailActivity.newInstance(context, userMeta.getId().toString(), userMeta.getName(), userMeta.getImage()));
+                  //  UserMeta userMeta = getItem(getLayoutPosition()).getUserMetaData();
+                 //   context.startActivity(UserProfileDetailActivity.newInstance(context, userMeta.getId().toString(), userMeta.getName(), userMeta.getImage()));
                     break;
                 case R.id.list_item_home_share:
                     SpringAnimationHelper.performAnimation(view);
@@ -564,8 +570,9 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                     break;
                 case R.id.list_item_home_txt_pic_vid_holder:
                     int posi = getLayoutPosition();
-                    if (posi != -1)
-                        context.startActivity(DetailHomeItemActivity.newIntent(context, getItem(posi)));
+                    if (posi != -1) {
+                        //  context.startActivity(DetailHomeItemActivity.newIntent(context, getItem(posi)));
+                    }
                     break;
             }
         }

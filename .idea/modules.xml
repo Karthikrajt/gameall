@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GameAll.iml" filepath="$PROJECT_DIR$/.idea/modules/GameAll.iml" group="GameAll" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="GameAll/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CMex.iml" filepath="$PROJECT_DIR$/.idea/modules/CMex.iml" group="CMex" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WhatsappMessengerView/WhatsappMessengerView.iml" filepath="$PROJECT_DIR$/.idea/modules/WhatsappMessengerView/WhatsappMessengerView.iml" group="CMex/WhatsappMessengerView" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="CMex/app" />
     </modules>
   </component>
 </project>

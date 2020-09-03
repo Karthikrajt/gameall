@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "outputFile": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\4d2a2260fa1f7f32c454306ada019a73\\jetified-facebook-login-5.13.0\\res\\values-es-rES\\values-es-rES.xml",
+                    "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\1ff74b4641da8637fcad6405bb748f78\\jetified-facebook-login-5.13.0\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

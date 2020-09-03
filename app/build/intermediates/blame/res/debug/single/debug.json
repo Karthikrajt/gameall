@@ -1,1998 +1,814 @@
 [
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_send_message.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_send_message.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_stop.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_stop.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_feedback.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_feedback.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_comment_gray_18dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_comment_gray_18dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_primary_dark_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_image.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_image.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_done_all_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_done_all_blue.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_comment.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\activity_comment.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_camera_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_camera_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_blue.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_done_blue.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_thumb_up.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_thumb_up.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_person.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_feedback.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_feedback.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_person.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_add_text_pic.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\frag_add_text_pic.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_person.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_thumb_color_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_thumb_color_primary.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main_recycler.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\fragment_main_recycler.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_send_primary_dark_16dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_send_primary_dark_16dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_storage_primary_dark_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_storage_primary_dark_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_all_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_done_all_blue.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_typing.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\item_message_typing.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_search_white_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_search_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notifications.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_primary_dark_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_image.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_image.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_image.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_image.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_tick.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_tick.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_done_all_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_done_all_black.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_waiting.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_waiting.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_send_message.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_send_message.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_settings.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\activity_settings.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bookmark_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_bookmark_primary_dark_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_comment.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_comment.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_waiting.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_waiting.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_comment.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_comment.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_chat_user.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\item_chat_user.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_person.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bookmark_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_bookmark_primary_dark_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_keyboard_arrow_right_black_24dp.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_keyboard_arrow_left.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_keyboard_arrow_left.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_comment.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_comment.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_storage_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_storage_primary_dark_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_person_white_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_chat.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_add_chat.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_send_message.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_send_message.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_thumb_color_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_thumb_color_primary.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_storage_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_storage_primary_dark_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_camera_white_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pause_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_pause_circle_outline_36dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_image.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_image.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_insert_emoticon_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_insert_emoticon_gray_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_list_item_notification.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\list_item_notification.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_circle.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_circle.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_waiting_blue.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_waiting_blue.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_feedback.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_feedback.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_stop.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_stop.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_power_settings_purple.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_power_settings_purple.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_message_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_message_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_attachment_image.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\item_message_attachment_image.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_play_circle_outline.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_play_circle_outline.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bookmark_blue_18dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_bookmark_blue_18dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_person_add_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_person_add_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_person.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_close_accent.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_close_accent.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_gray_transparent.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_gray_transparent.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_file_download_accent_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_file_download_accent_36dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_black.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_done_black.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_done_all_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_done_all_black.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_done_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_done_blue.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notification.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\fragment_notification.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_bg_card.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\selector_bg_card.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_send_primary_dark_16dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_send_primary_dark_16dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_done_all_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_done_all_blue.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_keyboard_arrow_right_black_24dp.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_regular.ttf.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\font\\montserrat_regular.ttf"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_play_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_play_circle_outline_36dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_tick.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_tick.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_camera_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_camera_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera_gray_40dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_camera_gray_40dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_profile_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_status.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\activity_status.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_file_download_accent_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_file_download_accent_36dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_frag_settings_push_notification.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\frag_settings_push_notification.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_settings_menu.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\menu\\activity_settings_menu.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_partial_message_status_view.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\partial_message_status_view.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_blue_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_share_blue_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_profile_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_profile_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like_gray_18dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_like_gray_18dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pause_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_pause_circle_outline_36dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_stat_onesignal_default.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_stat_onesignal_default.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_comment.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_comment.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_notifications.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_done_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_power_settings_purple.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_power_settings_purple.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_angular_grey_box.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\angular_grey_box.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_black_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_unread.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\circle_unread.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_done_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_done_black.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder.jpg.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\placeholder.jpg"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_share_blue_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_share_blue_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_keyboard_arrow_right_black_24dp.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_white_72dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_white_72dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_image.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_image.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_shopping_cart_white.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_shopping_cart_white.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_download_accent_36dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_file_download_accent_36dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_32dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_person_32dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_tick.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_tick.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_settings_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_settings_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_detail.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\activity_profile_detail.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_file_download_accent_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_file_download_accent_36dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_insert_emoticon_gray_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_insert_emoticon_gray_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_feedback.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_feedback.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_circle.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add_circle.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_waiting.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_waiting.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_done_white_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notification.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\fragment_notification.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_add_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_person_add_white_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_white_72dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_white_72dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_play_circle_outline.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_play_circle_outline.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_stat_onesignal_default.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_onesignal_default.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_stop.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_stop.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_siragu_logo.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\siragu_logo.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_copy_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_copy_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_circle.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_circle.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_close_accent.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_close_accent.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_thumb_up_accent_12dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_thumb_up_accent_12dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_white_with_border.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\rounded_bg_white_with_border.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_video.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_video.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_32dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_32dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close_accent.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_close_accent.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_bookmark_primary_dark_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_bookmark_primary_dark_24dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_attachment_recording.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\item_message_attachment_recording.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_insert_emoticon_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_insert_emoticon_gray_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_waiting_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_waiting_blue.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bookmark_primary_dark_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_bookmark_primary_dark_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_bookmark_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_bookmark_gray_18dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_text.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_text.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_done_blue.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_done_blue.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_messages.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\activity_messages.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_camera_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_camera_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_selected_right.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\gradient_selected_right.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_person_white_72dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_white_72dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_fragment_comment.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\fragment_comment.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_primary_dark_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_video_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_video_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_messages.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\activity_messages.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_report.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\bottom_sheet_report.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_share_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_share_gray_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_chat_cab.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\menu\\menu_chat_cab.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_videocam_40dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_videocam_40dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_white_72dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_person_white_72dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_camera_alt_grey_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_camera_alt_grey_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bookmark.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\fragment_bookmark.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_profile_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_thumb_up_gray_12dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_thumb_up_gray_12dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_unread.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\circle_unread.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_feedback.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_feedback.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_copy_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_copy_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_share_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_share_gray_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_thumb_up.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_thumb_up.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_done_primary.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_attachment_video.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\item_message_attachment_video.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_profile_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_thumb_up_gray_18dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_thumb_up_gray_18dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_play_circle_outline.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_play_circle_outline.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_stat_onesignal_default.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_stat_onesignal_default.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_camera_gray_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_camera_gray_40dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_32dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_person_32dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_fragment_post.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\fragment_post.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_all_black.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_done_all_black.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_done_primary.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_done_primary.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_text.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_text.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_settings_white_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings_white_24dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_video.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_video.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_video_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_video_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_notifications.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add_black_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_stories.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\row_stories.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_circle.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add_circle.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_fragment_confirmation.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\fragment_confirmation.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_fragment_confirmation.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\fragment_confirmation.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_circle.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_add_circle.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bookmark_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_bookmark_primary_dark_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_black_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_add_black_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_camera_alt_grey_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_camera_alt_grey_24dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_settings_support.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\frag_settings_support.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_send_primary_dark_16dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_send_primary_dark_16dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_add.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\list_item_add.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_share_blue_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_share_blue_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_image.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_image.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_video_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_video_24dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_notifications.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_message_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_message_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\anim_bottom_down.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\anim\\bottom_down.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_send_message.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_send_message.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_selected_left.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\gradient_selected_left.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_pause_circle_outline_36dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_pause_circle_outline_36dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_blue.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_bg_blue.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_add_black_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_all_blue.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_done_all_blue.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_done_black.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_text.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\item_message_text.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_more_vert_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_more_vert_black_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_camera_gray_40dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_camera_gray_40dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_color_gray.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_bg_color_gray.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_camera_alt_grey_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_camera_alt_grey_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_profile_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_32dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_32dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_list_item_story_container.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\list_item_story_container.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_person_32dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_person_32dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat_bg.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\chat_bg.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_power_settings_purple.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_power_settings_purple.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_view.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\recycler_view.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_black_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_stat_onesignal_default.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_stat_onesignal_default.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_waiting.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_waiting.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_edit_profile_activity.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\activity_edit_profile_activity.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_notifications.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_comment.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\content_comment.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_circle.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_add_circle.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_done_all_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_done_all_black.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder_notiication.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\placeholder_notiication.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_shopping_cart_white.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_shopping_cart_white.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_tick.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_action_tick.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_done_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_done_blue.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_regular.ttf.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\font\\montserrat_regular.ttf"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_gray_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\ic_person_gray_24dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_footer_view.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\footer_view.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_image.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_image.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_primary_dark_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_notifications_primary_dark_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_thumb_up_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_thumb_up_gray_18dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_thumb_up.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_thumb_up.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_bar.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\bottom_bar.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bookmark_gray_18dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_bookmark_gray_18dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_message_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_message_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_empty_view.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\empty_view.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_text.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_text.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_primary.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_done_primary.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_video_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_video_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_tick.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_action_tick.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\menu_nosearch.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\menu\\nosearch.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_keyboard_arrow_right_black_24dp.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like_blue_18dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_like_blue_18dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_done_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_done_black.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_gray_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_person_gray_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_file_download_40dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_file_download_40dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\anim\\slide_up.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_thumb_up_gray_12dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_thumb_up_gray_12dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_white_with_border.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_bg_white_with_border.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_keyboard_arrow_right_black_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_feedback.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\activity_feedback.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_text.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_text.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_list_item_home.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\list_item_home.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_done_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_done_primary.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_thumb_color_primary.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_thumb_color_primary.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_thumb_up_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_thumb_up_gray_18dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_message_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_message_white_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_video_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_video_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_keyboard_arrow_left.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_keyboard_arrow_left.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_feedback.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_feedback.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play_circle_outline_36dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_play_circle_outline_36dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_thumb_up.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_thumb_up.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_bg_color_pink.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\round_bg_color_pink.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_camera_alt_grey_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_camera_alt_grey_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\anim_bottom_up.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\anim\\bottom_up.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_done_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_done_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_video.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_video.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search_user.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\fragment_search_user.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_add_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_add_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_video_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_video_white_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_copy_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_copy_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_list_item_comment.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\list_item_comment.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_thumb_up_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_thumb_up_gray_18dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder_post.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\placeholder_post.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_power_settings_purple.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_power_settings_purple.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_stat_onesignal_default.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_stat_onesignal_default.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search_user.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\fragment_search_user.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_chat.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_add_chat.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_thumb_up_accent_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_thumb_up_accent_12dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_video.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_video.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_bold.ttf.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\font\\montserrat_bold.ttf"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_camera_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_camera_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_copy_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_copy_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_stat_onesignal_default.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_onesignal_default.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_white.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_bg_white.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_message_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_message_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more_vert_black_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_more_vert_black_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_done_blue.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_fragment_post.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\fragment_post.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_stop.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_stop.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_comment.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_comment.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_share_blue_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_share_blue_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_text.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_text.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_stat_onesignal_default.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_stat_onesignal_default.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\fragment_second.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person_white_72dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person_white_72dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_thumb_up.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_thumb_up.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_thumb_color_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_thumb_color_primary.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_text.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_text.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_video.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_video.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_message_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_message_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play_circle_outline.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_play_circle_outline.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_close_accent.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_close_accent.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_splash_screen.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\activity_splash_screen.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_videocam_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_videocam_40dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_partial_message_status_view.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\partial_message_status_view.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_file_download_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_file_download_40dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_text.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_text.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_done_all_blue.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_done_all_blue.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\fragment_first.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_keyboard_arrow_left.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_keyboard_arrow_left.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_user_search_result.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\item_user_search_result.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_keyboard_arrow_right_black_24dp.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person_add_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person_add_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_shopping_cart_white.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_shopping_cart_white.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_person.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_message_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_message_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_message_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_message_24dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_chat_user.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\item_chat_user.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bookmarks.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\activity_bookmarks.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_keyboard_arrow_left.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_keyboard_arrow_left.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_person.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\menu_nosearch.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\menu\\nosearch.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21_ic_bookmark_blue_18dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_bookmark_blue_18dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_bg_card.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\selector_bg_card.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pause_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_pause_circle_outline_36dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pause_circle_outline_36dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_pause_circle_outline_36dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_video_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_video_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_circle.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_circle.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\anim\\slide_up.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_keyboard_arrow_left.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_keyboard_arrow_left.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_primary_buy.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\rounded_primary_buy.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_keyboard_arrow_left.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_keyboard_arrow_left.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder.jpg.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\placeholder.jpg"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_angular_pink_box.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\angular_pink_box.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_add_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_add_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera_alt_grey_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_camera_alt_grey_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_image.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_image.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_thumb_up.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_thumb_up.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_copy_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_copy_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\anim\\slide_down.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_close_accent.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_close_accent.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_primary_buy.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_primary_buy.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_chat.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_add_chat.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_image_viewer.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\activity_image_viewer.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_footer_view.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\footer_view.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_gray_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_share_gray_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_comment.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_comment.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_add_text_pic.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\frag_add_text_pic.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_home_item.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\menu\\menu_home_item.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_bar.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\bottom_bar.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_pause_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_pause_circle_outline_36dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notification_gray_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_notification_gray_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_keyboard_arrow_left.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_keyboard_arrow_left.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder_chat.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\placeholder_chat.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_send_message.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_send_message.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_comment.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_comment.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_power_settings_purple.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_power_settings_purple.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bookmarks.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\activity_bookmarks.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_share_blue_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share_blue_24dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_grey_circle.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\grey_circle.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_send_primary_dark_16dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_send_primary_dark_16dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_home_item.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\activity_detail_home_item.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\toolbar.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_color_primary.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_bg_color_primary.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_video_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_video_white_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_keyboard_arrow_left.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_keyboard_arrow_left.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_person_white_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_white_24dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_follower_following.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\activity_follower_following.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_send_primary_dark_16dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_send_primary_dark_16dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_notifications.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_comment.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_comment.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_videocam_40dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_videocam_40dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_more_vert_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_more_vert_black_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_download_40dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_file_download_40dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_thumb_color_primary.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_thumb_color_primary.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_thumb_up.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_thumb_up.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\anim_bottom_up.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\anim\\bottom_up.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_home_item.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\menu\\menu_home_item.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_status.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\activity_status.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_settings_white_24dp.xml"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like_blue_18dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\ic_like_blue_18dp.xml"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_video.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_video.png"
     },
     {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_list_item_comment.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\list_item_comment.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_done_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_done_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_message_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_message_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_stop.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_stop.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_message_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_message_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_video.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_video.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pause_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pause_circle_outline_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_attachment_video.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\item_message_attachment_video.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_done_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_done_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_text.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\item_message_text.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_waiting_blue.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_waiting_blue.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_waiting.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_waiting.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_done_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_done_primary.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\fragment_home.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_more_vert_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_more_vert_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_waiting.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_waiting.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_comment_gray_18dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\ic_comment_gray_18dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_shopping_cart_white.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_shopping_cart_white.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_share_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_share_gray_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_camera_gray_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_camera_gray_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_thumb_up_accent_12dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_thumb_up_accent_12dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_typing.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\item_message_typing.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_videocam_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_videocam_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_message_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_message_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_settings_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_settings_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_thumb_up_gray_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_thumb_up_gray_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_person_add_white_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_add_white_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_more_vert_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_more_vert_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_settings_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_settings_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_video.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_video.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_message_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_message_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_shopping_cart_white.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_shopping_cart_white.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_view.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\recycler_view.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_waiting_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_waiting_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_send_message.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_send_message.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_add.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\list_item_add.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_done_all_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_done_all_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_notifications.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_thumb_up_gray_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_thumb_up_gray_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_thumb_up_accent_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_thumb_up_accent_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_play_circle_outline.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_play_circle_outline.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_color_primary.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\rounded_bg_color_primary.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_done_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_done_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_waiting_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_waiting_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_shopping_cart_white.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_shopping_cart_white.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_frag_settings_support.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\frag_settings_support.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_thumb_color_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_thumb_color_primary.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_thumb_color_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_thumb_color_primary.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_search_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bookmark.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\fragment_bookmark.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_blue.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\rounded_bg_blue.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_text.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_text.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_settings_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_settings_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_done_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_done_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_play_circle_outline.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_play_circle_outline.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_camera_gray_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_camera_gray_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_stop.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_stop.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_play_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_play_circle_outline_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_circle.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_add_circle.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_done_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_done_primary.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_video_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_video_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_video_white_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_video_white_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_tick.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_tick.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_share_gray_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share_gray_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_share_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_share_gray_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_more_vert_black_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_more_vert_black_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_tick.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_tick.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_power_settings_purple.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_power_settings_purple.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_done_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_done_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_storage_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_storage_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_person_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_person_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_keyboard_arrow_right_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_stat_onesignal_default.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_stat_onesignal_default.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_play_circle_outline.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_play_circle_outline.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_tick.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_action_tick.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_profile_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_person.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_chat.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_chat.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_tick.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_action_tick.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_report.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\bottom_sheet_report.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_insert_emoticon_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_insert_emoticon_gray_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_pause_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pause_circle_outline_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_chat.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add_chat.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_search_white_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search_white_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_play_circle_outline.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_play_circle_outline.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_share_blue_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_share_blue_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_play_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_play_circle_outline_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_search_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_send_primary_dark_16dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_send_primary_dark_16dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_splash_screen.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_insert_emoticon_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_insert_emoticon_gray_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_selected_right.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\gradient_selected_right.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_bookmark_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_bookmark_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_camera_alt_grey_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_camera_alt_grey_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_bookmark_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_bookmark_gray_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_shopping_cart_white.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_shopping_cart_white.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_file_download_accent_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_file_download_accent_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_done_black.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_done_black.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_image_viewer.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\activity_image_viewer.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_settings_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_settings_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_settings_menu.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\menu\\activity_settings_menu.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_waiting.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_waiting.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bookmark_blue_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_bookmark_blue_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_comment.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_comment.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_keyboard_arrow_right_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_done_all_black.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_done_all_black.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_thumb_up_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_thumb_up_gray_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_notifications.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_bookmark_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_bookmark_gray_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_thumb_up_gray_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_thumb_up_gray_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_list_item_notification.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\list_item_notification.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_add_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_camera_alt_grey_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_camera_alt_grey_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_bookmark_gray_18dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_bookmark_gray_18dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_add_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_person_add_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_bookmark_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_bookmark_gray_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_share_blue_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_share_blue_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_share_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_share_gray_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_message_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_message_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_close_accent.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_close_accent.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_white_72dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_white_72dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_video_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_video_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_thumb_up.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_thumb_up.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_thumb_up.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_thumb_up.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_add_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_storage_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_storage_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like_gray_18dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\ic_like_gray_18dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_message_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_message_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_tick.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_tick.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_power_settings_purple.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_power_settings_purple.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_play_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_play_circle_outline_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_search_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_bold.ttf.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\font\\montserrat_bold.ttf"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_list_item_home.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\list_item_home.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_notifications.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_keyboard_arrow_left.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_keyboard_arrow_left.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_thumb_color_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_thumb_color_primary.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_chat.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_chat.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_keyboard_arrow_right_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main_recycler.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\fragment_main_recycler.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_done_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_done_black.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_fragment_comment.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\fragment_comment.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notification_gray_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\ic_notification_gray_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_white_72dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_person_white_72dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_detail.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\activity_profile_detail.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_videocam_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_videocam_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_frag_settings_push_notification.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\frag_settings_push_notification.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_done_all_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_done_all_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_angular_grey_box.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\angular_grey_box.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_storage_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_storage_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_power_settings_purple.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_power_settings_purple.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_video_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_video_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_insert_emoticon_gray_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_insert_emoticon_gray_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_keyboard_arrow_right_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_done_all_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_done_all_black.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_feedback.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_feedback.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_empty_view.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\empty_view.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_person.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_waiting_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_waiting_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_file_download_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_file_download_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_done_white_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_done_white_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_follower_following.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\activity_follower_following.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_waiting_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_waiting_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_stat_onesignal_default.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_stat_onesignal_default.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_grey_circle.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\grey_circle.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_bg_color_pink.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\round_bg_color_pink.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_videocam_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_videocam_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_play_circle_outline_36dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_play_circle_outline_36dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_image.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_image.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_bookmark_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_bookmark_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_white.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\rounded_bg_white.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_attachment_image.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\item_message_attachment_image.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_file_download_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_file_download_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_thumb_up_gray_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_thumb_up_gray_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_file_download_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_file_download_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\anim\\slide_down.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\xml\\provider_paths.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_bookmark_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_bookmark_gray_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_play_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_play_circle_outline_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_thumb_up_accent_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_thumb_up_accent_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_waiting_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_waiting_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_videocam_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_videocam_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_thumb_up_gray_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_thumb_up_gray_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_play_circle_outline_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_play_circle_outline_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_stop.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_stop.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_gray_transparent.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\rounded_gray_transparent.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_stat_onesignal_default.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_stat_onesignal_default.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_chat_cab.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\menu\\menu_chat_cab.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_thumb_up_gray_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_thumb_up_gray_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_done_all_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_done_all_black.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_person_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_selected_left.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\gradient_selected_left.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_send_primary_dark_16dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_send_primary_dark_16dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_copy_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_copy_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_thumb_up_accent_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_thumb_up_accent_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_black_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_black_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_person_white_72dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_person_white_72dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_done_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_done_primary.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_circle.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_circle.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_bookmark_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_bookmark_gray_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_message_white_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_message_white_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_thumb_up_gray_18dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_thumb_up_gray_18dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_storage_primary_dark_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_storage_primary_dark_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_done_all_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_done_all_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_insert_emoticon_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_insert_emoticon_gray_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_chat.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_chat.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_file_download_accent_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_file_download_accent_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_shopping_cart_white.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_shopping_cart_white.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_settings_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_copy_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_copy_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_video.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxhdpi\\ic_video.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_chat.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_add_chat.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_angular_pink_box.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\angular_pink_box.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_home_item.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\activity_detail_home_item.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_stop.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_stop.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_thumb_up.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_thumb_up.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\anim_bottom_down.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\anim\\bottom_down.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_share_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_share_gray_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_storage_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_storage_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_video_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_video_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat_bg.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\chat_bg.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_camera_alt_grey_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_camera_alt_grey_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_image.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_image.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder_chat.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\placeholder_chat.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_settings.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\activity_settings.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_close_accent.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_close_accent.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_done_blue.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_done_blue.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_insert_emoticon_gray_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_insert_emoticon_gray_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_camera_gray_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_camera_gray_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_file_download_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_file_download_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_videocam_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_videocam_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_file_download_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_file_download_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_comment.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_comment.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_video.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-hdpi\\ic_video.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_share_blue_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_share_blue_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_siragu_logo.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\siragu_logo.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_video_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_video_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_file_download_accent_36dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_file_download_accent_36dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_profile_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_profile_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_thumb_up_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_thumb_up_gray_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_close_accent.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_close_accent.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_edit_profile_activity.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\activity_edit_profile_activity.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_list_item_story_container.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\list_item_story_container.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_done_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_done_black.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder_notiication.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\placeholder_notiication.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_text.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_text.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_waiting.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_waiting.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_video_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_video_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_32dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_32dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_feedback.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_feedback.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_person_32dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_32dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_camera_white_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_camera_white_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_more_vert_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_more_vert_black_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person_32dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person_32dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_text.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_text.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_done_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_done_black.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_color_gray.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\rounded_bg_color_gray.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_camera_gray_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_camera_gray_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_done_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_done_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xhdpi\\ic_person.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder_post.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable\\placeholder_post.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_thumb_up_gray_18dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_thumb_up_gray_18dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_done_all_black.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_done_all_black.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_thumb_up_accent_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_thumb_up_accent_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_camera_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_camera_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_send_message.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_send_message.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_keyboard_arrow_left.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_keyboard_arrow_left.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_message_attachment_recording.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\item_message_attachment_recording.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_message_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_message_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_feedback.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout-v17\\activity_feedback.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_done_primary.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_done_primary.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_file_download_accent_36dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_file_download_accent_36dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_camera_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_camera_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_notifications.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_thumb_up_accent_12dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_thumb_up_accent_12dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_circle.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\drawable-mdpi\\ic_add_circle.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_notifications_primary_dark_24dp.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_primary_dark_24dp.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_video_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_video_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_bookmark_primary_dark_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_bookmark_primary_dark_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_stories.xml.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\src\\main\\res\\layout\\row_stories.xml"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_add_white_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_add_white_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_copy_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_copy_24dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_send_message.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_send_message.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_send_primary_dark_16dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_send_primary_dark_16dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_camera_gray_40dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_camera_gray_40dp.png"
-    },
-    {
-        "merged": "D:\\Download\\Game All\\GameAll\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_more_vert_black_24dp.png.flat",
-        "source": "D:\\Download\\Game All\\GameAll\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_more_vert_black_24dp.png"
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_user_search_result.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\item_user_search_result.xml"
     }
 ]

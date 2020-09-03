@@ -58,7 +58,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <!-- <com.facebook.login.widget.LoginButton xmlns:facebook="http://schemas.android.com/apk/res-auto"
+            <com.facebook.login.widget.LoginButton
                 android:id="@+id/login_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -66,11 +66,12 @@
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:paddingBottom="12dp"
                 android:paddingLeft="12dp"
-                android:paddingRight="12dp"
                 android:paddingTop="12dp"
-                facebook:com_facebook_login_text="Facebook" /> !-->
+                android:paddingRight="12dp"
+                android:paddingBottom="12dp"
+                android:visibility="visible"
+                app:com_facebook_login_text="Facebook" />
 
             <com.google.android.gms.common.SignInButton
                 android:id="@+id/google_sign_in_button"
@@ -88,6 +89,7 @@
             android:layout_height="match_parent"
             android:checkedButton="@id/radioButton"
             android:orientation="horizontal"
+            android:visibility="gone"
             android:weightSum="2">
 
             <RadioButton

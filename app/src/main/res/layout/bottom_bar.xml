@@ -43,14 +43,15 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_vertical"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="visible">
 
         <ImageView
             android:layout_width="12dp"
             android:layout_height="12dp"
             android:layout_gravity="center"
             android:contentDescription="@string/home_tab"
-            android:src="@drawable/ic_message_24dp" />
+            android:src="@drawable/ic_profile_24dp" />
 
         <com.siragu.gameall.view.MontserratTextView
             android:layout_width="match_parent"
@@ -58,7 +59,7 @@
             android:ellipsize="end"
             android:gravity="center_horizontal"
             android:singleLine="true"
-            android:text="@string/chats"
+            android:text="@string/profile"
             android:textColor="@color/text_below"
             android:textSize="10sp" />
     </LinearLayout>

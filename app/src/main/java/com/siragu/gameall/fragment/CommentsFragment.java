@@ -1,21 +1,28 @@
 package com.siragu.gameall.fragment;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.text.Editable;
 import android.text.TextUtils;
+import android.text.TextWatcher;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -36,6 +43,9 @@ import com.siragu.gameall.network.ApiUtils;
 import com.siragu.gameall.network.DrService;
 import com.siragu.gameall.network.request.CreateCommentRequest;
 import com.siragu.gameall.network.response.BaseListModel;
+import com.varunjohn1990.audio_record_view.AttachmentOption;
+import com.varunjohn1990.audio_record_view.AttachmentOptionsListener;
+import com.varunjohn1990.audio_record_view.AudioRecordView;
 
 import java.util.ArrayList;
 
@@ -46,25 +56,25 @@ import retrofit2.Response;
 /**
  * A screen to display and add the comments
  */
-public class CommentsFragment extends Fragment {
+public class CommentsFragment extends Fragment  implements AudioRecordView.RecordingListener, View.OnClickListener, AttachmentOptionsListener {
     RecyclerView recyclerView;
     EditText addACommentEdittext;
     View emptyView;
     SwipeRefreshLayout swipeRefresh;
     ImageView profileIcon;
-
+    private AudioRecordView audioRecordView;
     private CommentsRecyclerAdapter commentsRecyclerAdapter;
     private SharedPreferenceUtil sharedPreferenceUtil;
-
+    private long time;
     private String postId;
     private static ArrayList<Comment> commentArrayList;
     private static String previousPostId = "";
     private OnPopupMenuItemClickListener onPopupMenuItemClickListener;
     private OnCommentAddListener onCommentAddListener;
     private boolean isFullScreen = true;
-
+    String commentTextToPost = "";
     private int pageNumber = 1;
-
+    Context c = null;
     private DrService foxyService;
     private boolean allDone, isLoading;
 
@@ -169,13 +179,54 @@ public class CommentsFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_comment, container, false);
+        c = view.getContext();
 
-        recyclerView = view.findViewById(R.id.comment_recycler_view);
-        addACommentEdittext = view.findViewById(R.id.add_a_comment_edittext);
-        emptyView = view.findViewById(R.id.empty_view_container);
-        swipeRefresh = view.findViewById(R.id.swipeRefresh);
-        profileIcon = view.findViewById(R.id.list_item_comment_foxy_img);
-        view.findViewById(R.id.btn_post_comment).setOnClickListener(new View.OnClickListener() {
+        audioRecordView = new AudioRecordView();
+        // this is to make your layout the root of audio record view, root layout supposed to be empty..
+        audioRecordView.initView((CardView) view.findViewById(R.id.layoutMain));
+        // this is to provide the container layout to the audio record view..
+        View containerView = audioRecordView.setContainerView(R.layout.fragment_comment);
+        audioRecordView.setRecordingListener(this);
+        containerView.findViewById(R.id.commentContainer).setVisibility(View.GONE);
+        swipeRefresh = containerView.findViewById(R.id.swipeRefresh);
+        swipeRefresh.setEnabled(false);
+        recyclerView = containerView.findViewById(R.id.comment_recycler_view);
+        addACommentEdittext =audioRecordView.getMessageView();
+        emptyView = containerView.findViewById(R.id.empty_view_container);
+
+       // swipeRefresh.setEnabled(false);
+
+
+        profileIcon = containerView.findViewById(R.id.list_item_comment_foxy_img);
+
+        audioRecordView.getMessageView().addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                audioRecordView.getCameraView().setVisibility(View.GONE);
+                audioRecordView.getEmojiView().setVisibility(View.GONE);
+                audioRecordView.getAttachmentView().setVisibility(View.GONE);
+                commentTextToPost =  audioRecordView.getMessageView().getText().toString();
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start,
+                                          int count, int after) {  audioRecordView.getCameraView().setVisibility(View.GONE);
+                audioRecordView.getEmojiView().setVisibility(View.GONE);
+                audioRecordView.getAttachmentView().setVisibility(View.GONE);
+                commentTextToPost =  audioRecordView.getMessageView().getText().toString();    }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start,
+                                      int before, int count) {
+                audioRecordView.getCameraView().setVisibility(View.GONE);
+                audioRecordView.getEmojiView().setVisibility(View.GONE);
+                audioRecordView.getAttachmentView().setVisibility(View.GONE);
+                commentTextToPost =  audioRecordView.getMessageView().getText().toString();
+            }
+        });
+
+        containerView.findViewById(R.id.btn_post_comment).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 postCommentOnServer(v);
@@ -187,9 +238,9 @@ public class CommentsFragment extends Fragment {
         }
 
 
-//        if (!isFullScreen) {
-//            recyclerView.setNestedScrollingEnabled(false);
-//        }
+
+           recyclerView.setNestedScrollingEnabled(false);
+
 
         sharedPreferenceUtil = new SharedPreferenceUtil(getActivity());
         UserResponse userMe = Helper.getLoggedInUser(sharedPreferenceUtil);
@@ -213,6 +264,9 @@ public class CommentsFragment extends Fragment {
         recyclerView.setAdapter(commentsRecyclerAdapter);
         recyclerView.addOnScrollListener(recyclerViewOnScrollListener);
 
+
+        setListener();
+        audioRecordView.getMessageView().requestFocus();
         return view;
     }
 
@@ -236,13 +290,20 @@ public class CommentsFragment extends Fragment {
     public void postCommentOnServer(View view) {
         SpringAnimationHelper.performAnimation(view);
 
-        final String commentTextToPost = addACommentEdittext.getText().toString();
+        // commentTextToPost = audioRecordView.getMessageView().getText().toString();
         if (TextUtils.isEmpty(commentTextToPost)) {
+
+            audioRecordView.getCameraView().setVisibility(View.GONE);
+            audioRecordView.getEmojiView().setVisibility(View.GONE);
+            audioRecordView.getAttachmentView().setVisibility(View.GONE);
             Toast.makeText(getContext(), R.string.err_field_comment, Toast.LENGTH_SHORT).show();
         } else {
+            audioRecordView.getCameraView().setVisibility(View.GONE);
+            audioRecordView.getEmojiView().setVisibility(View.GONE);
+            audioRecordView.getAttachmentView().setVisibility(View.GONE);
             Toast.makeText(getContext(), R.string.comment_added, Toast.LENGTH_SHORT).show();
             onCommentAddListener.onCommentAdded();
-            updateComments(new CreateCommentRequest(commentTextToPost));
+            updateComments(new CreateCommentRequest(audioRecordView.getMessageView().getText().toString()));
             addACommentEdittext.setText("");
             Helper.closeKeyboard((Activity) getContext());
         }
@@ -263,13 +324,39 @@ public class CommentsFragment extends Fragment {
                     if (emptyView.getVisibility() == View.VISIBLE) {
                         recyclerView.setVisibility(View.VISIBLE);
                         emptyView.setVisibility(View.GONE);
+
                     }
+                    audioRecordView.getMessageView().setText("");
                 }
             }
 
             @Override
             public void onFailure(Call<Comment> call, Throwable t) {
 
+            }
+        });
+    }
+
+    private void setListener() {
+        audioRecordView.getCameraView().setVisibility(View.GONE);
+        audioRecordView.getEmojiView().setVisibility(View.GONE);
+        audioRecordView.getAttachmentView().setVisibility(View.GONE);
+        audioRecordView.getMessageView().setPadding(25,25,25,25);
+
+
+
+
+
+        audioRecordView.getSendView().setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String msg = audioRecordView.getMessageView().getText().toString().trim();
+
+                //  messageAdapter.add(new Message(msg));
+                audioRecordView.getCameraView().setVisibility(View.GONE);
+                audioRecordView.getEmojiView().setVisibility(View.GONE);
+                audioRecordView.getAttachmentView().setVisibility(View.GONE);
+                postCommentOnServer(v);
             }
         });
     }
@@ -288,5 +375,55 @@ public class CommentsFragment extends Fragment {
      */
     public void requestEditTextFocus() {
         addACommentEdittext.requestFocus();
+    }
+    @Override
+    public void onClick(View v) {
+    }
+    @Override
+    public void onClick(AttachmentOption attachmentOption) {
+    }
+    @Override
+    public void onRecordingStarted() {
+        showToast("started");
+
+        audioRecordView.getCameraView().setVisibility(View.GONE);
+        audioRecordView.getEmojiView().setVisibility(View.GONE);
+        audioRecordView.getAttachmentView().setVisibility(View.GONE);
+        time = System.currentTimeMillis() / (1000);
+    }
+
+    @Override
+    public void onRecordingLocked() {
+        showToast("locked");
+        audioRecordView.getCameraView().setVisibility(View.GONE);
+        audioRecordView.getEmojiView().setVisibility(View.GONE);
+        audioRecordView.getAttachmentView().setVisibility(View.GONE);
+    }
+
+    @Override
+    public void onRecordingCompleted() {
+        showToast("completed");
+
+
+        int recordTime = (int) ((System.currentTimeMillis() / (1000)) - time);
+        audioRecordView.getCameraView().setVisibility(View.GONE);
+        audioRecordView.getEmojiView().setVisibility(View.GONE);
+        audioRecordView.getAttachmentView().setVisibility(View.GONE);
+
+    }
+
+    @Override
+    public void onRecordingCanceled() {
+        showToast("canceled");
+        //debug("canceled");
+        audioRecordView.getCameraView().setVisibility(View.GONE);
+        audioRecordView.getEmojiView().setVisibility(View.GONE);
+        audioRecordView.getAttachmentView().setVisibility(View.GONE);
+    }
+
+    private void showToast(String message) {
+        Toast toast = Toast.makeText(c, message, Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER, 0, 0);
+        toast.show();
     }
 }

@@ -45,9 +45,9 @@ android {
 		buildConfigField "String", "BASE_URL", '"http://jsonshift.com/GameAll/public/"'
         buildConfigField "boolean", "IS_DEMO", "false"
         buildConfigField "String", "DEMO_ACTION_LINK", '"http://bit.ly/cc_Weshare"'
-        resValue 'string', "app_name", "Game All"
+        resValue 'string', "app_name", "CMex"
         resValue 'string', "web_client_id", "66358306826-vkf7us0c8idsfauslnpcbdgsuheov44p.apps.googleusercontent.com"
-        resValue 'string', "facebook_app_id", ""
+        resValue 'string', "facebook_app_id", "asd"
         resValue 'string', "fb_login_protocol_scheme", ""
         resValue 'string', "admob_app_id", ""
         resValue 'string', "admob_banner_id", ""
@@ -55,13 +55,13 @@ android {
         resValue 'string', "support_email", "opuslabsin@gmail.com"
         resValue 'string', "authority", applicationId + ".fileprovider"
 
-        resValue 'color', "colorPrimary", "#30456E"
-        resValue 'color', "colorPrimaryDark", "#30456E"
+        resValue 'color', "colorPrimary", "#ADD8E6"
+        resValue 'color', "colorPrimaryDark", "#ADD8E6"
         resValue 'color', "colorAccent", "#F4B41A"
 
         manifestPlaceholders = [onesignal_app_id: 'c136b40b-3afe-4474-a400-d9133a9a3469', onesignal_google_project_number: 'REMOTE']
 
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 18
         versionName "4.0"
@@ -101,7 +101,7 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.google.firebase:firebase-dynamic-links:19.1.0'
-
+    implementation project(path: ':WhatsappMessengerView')
     implementation 'de.hdodenhof:circleimageview:3.0.1'
     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
@@ -114,6 +114,11 @@ dependencies {
     implementation 'com.eyalbira.loadingdots:loading-dots:1.0.2'
     implementation 'com.github.shts:StoriesProgressView:3.0.0'
     implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'com.devlomi.record-view:record-view:2.0.1'
+
     annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
 }
 

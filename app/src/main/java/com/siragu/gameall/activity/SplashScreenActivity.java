@@ -20,7 +20,12 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
 import com.facebook.login.LoginManager;
+import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -69,7 +74,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     private GoogleSignInClient mGoogleSignInClient;
     private CallbackManager facebookCallbackManager;
- //   private LoginButton facebookLoginButton;
+    private LoginButton facebookLoginButton;
     private FirebaseAuth mAuth;
 
     private SharedPreferenceUtil sharedPreferenceUtil;
@@ -114,6 +119,7 @@ public class SplashScreenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+      // FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_splash_screen);
 
         Constants.Shoppker = false;
@@ -186,7 +192,7 @@ public class SplashScreenActivity extends AppCompatActivity {
     private void setupAuth() {
         mAuth = FirebaseAuth.getInstance();
 
-        /*  facebookCallbackManager = CallbackManager.Factory.create();
+          facebookCallbackManager = CallbackManager.Factory.create();
      facebookLoginButton.setPermissions(Arrays.asList("email", "public_profile"));
         facebookLoginButton.registerCallback(facebookCallbackManager, new FacebookCallback<LoginResult>() {
             @Override
@@ -212,7 +218,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 authProgress.setVisibility(View.VISIBLE);
                 google_sign_in_button.setClickable(false);
             }
-        });*/
+        });
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().requestIdToken(getString(R.string.web_client_id)).build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
@@ -221,7 +227,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void onClick(View v) {
                 startActivityForResult(mGoogleSignInClient.getSignInIntent(), RC_GOOGLE_SIGN_IN);
                 authProgress.setVisibility(View.VISIBLE);
-             //   facebookLoginButton.setClickable(false);
+                facebookLoginButton.setClickable(false);
             }
         });
     }
@@ -254,7 +260,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         title.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Montserrat_Bold.ttf"));
         titleContainer = findViewById(R.id.titleContainer);
         authOptionsContainer = findViewById(R.id.authOptionsContainer);
-      //  facebookLoginButton = findViewById(R.id.login_button);
+       facebookLoginButton = findViewById(R.id.login_button);
         google_sign_in_button = findViewById(R.id.google_sign_in_button);
         authProgress = findViewById(R.id.authProgress);
 

@@ -97,7 +97,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="@string/profile_visibility"
-                android:textColor="@color/textColor4" />
+                android:textColor="@color/textColor4"
+                android:visibility="gone" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -105,7 +106,8 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/angular_grey_box"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/switchProfileVisibility"

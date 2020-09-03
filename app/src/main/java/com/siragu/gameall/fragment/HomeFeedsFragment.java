@@ -65,7 +65,7 @@ import retrofit2.Response;
  */
 public class HomeFeedsFragment extends Fragment implements ImagePickerCallback {
     private RecyclerView recyclerView;
-    private SwipeRefreshLayout swipeRefreshLayout;
+    public static SwipeRefreshLayout swipeRefreshLayout;
     private View emptyView;
     private TextView empty_view_text;
 
@@ -190,6 +190,7 @@ public class HomeFeedsFragment extends Fragment implements ImagePickerCallback {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.recycler_view, container, false);
 
+
         mContext = getContext();
         sharedPreferenceUtil = new SharedPreferenceUtil(mContext);
         weService = ApiUtils.getClient().create(DrService.class);
@@ -197,6 +198,8 @@ public class HomeFeedsFragment extends Fragment implements ImagePickerCallback {
 
         recyclerView = view.findViewById(R.id.recycler_view);
         swipeRefreshLayout = view.findViewById(R.id.frag_home_feeds_swipe_refresh_layout);
+
+
         emptyView = view.findViewById(R.id.empty_view_container);
         empty_view_text = view.findViewById(R.id.empty_view_text);
         linearLayoutManager = new LinearLayoutManager(mContext);
