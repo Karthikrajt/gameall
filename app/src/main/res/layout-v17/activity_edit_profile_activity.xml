@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical"
-    tools:context="com.siragu.gameall.activity.EditProfileActivityActivity">
+    tools:context="com.siragu.CMex.activity.EditProfileActivityActivity">
 
     <include layout="@layout/toolbar" />
 
@@ -49,7 +49,7 @@
                     android:src="@drawable/placeholder" />
             </RelativeLayout>
 
-            <com.siragu.gameall.view.MontserratTextView
+            <com.siragu.CMex.view.MontserratTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -94,7 +94,7 @@
             <!--                android:paddingEnd="10dp"-->
             <!--                android:paddingBottom="10dp" />-->
 
-            <com.siragu.gameall.view.MontserratTextView
+            <com.siragu.CMex.view.MontserratTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -115,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:checked="true" />
 
-                <com.siragu.gameall.view.MontserratTextView
+                <com.siragu.CMex.view.MontserratTextView
                     android:id="@+id/textProfileVisibility"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

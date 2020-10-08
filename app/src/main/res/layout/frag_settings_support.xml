@@ -8,13 +8,13 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <com.siragu.gameall.view.MontserratTextView
+    <com.siragu.CMex.view.MontserratTextView
         style="@style/Base.TextAppearance.AppCompat.Headline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/get_support_at" />
 
-    <com.siragu.gameall.view.MontserratTextView
+    <com.siragu.CMex.view.MontserratTextView
         android:id="@+id/frag_settings_support_mail"
         style="@style/TextAppearance.AppCompat.Large"
         android:layout_width="match_parent"

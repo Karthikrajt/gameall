@@ -23,7 +23,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/ic_person_gray_24dp" />
 
-        <com.siragu.gameall.view.MontserratMediumTextView
+        <com.siragu.CMex.view.MontserratMediumTextView
             android:id="@+id/list_item_name_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
             android:textSize="12sp"
             android:textStyle="bold" />
 
-        <com.siragu.gameall.view.MontserratTextView
+        <com.siragu.CMex.view.MontserratTextView
             android:id="@+id/list_item_comment_posting_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,20 +64,21 @@
             android:padding="4dp"
             android:src="@drawable/ic_thumb_up_gray_18dp" />
 
-        <com.siragu.gameall.view.MontserratMediumTextView
+        <com.siragu.CMex.view.MontserratMediumTextView
             android:id="@+id/list_item_comment_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/list_item_comment_posting_time"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="12dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="12dp"
             android:autoLink="web|phone|email"
             android:ellipsize="end"
-            android:maxLines="1"
             android:textColor="#262627"
             android:textSize="12sp"
             android:textStyle="bold" />
+
+
 
     </RelativeLayout>
 

@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "66358306826",
-    "firebase_url": "https://siragu-game-all.firebaseio.com",
-    "project_id": "siragu-game-all",
-    "storage_bucket": "siragu-game-all.appspot.com"
+    "project_number": "669475687519",
+    "firebase_url": "https://cmex-70696.firebaseio.com",
+    "project_id": "cmex-70696",
+    "storage_bucket": "cmex-70696.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:66358306826:android:044cbc2efdd9660035d7f3",
+        "mobilesdk_app_id": "1:669475687519:android:0a90626bb32835e3555fea",
         "android_client_info": {
-          "package_name": "com.siragu.gameall"
+          "package_name": "com.siragu.CMex"
         }
       },
       "oauth_client": [
         {
-          "client_id": "66358306826-vkf7us0c8idsfauslnpcbdgsuheov44p.apps.googleusercontent.com",
+          "client_id": "669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBqK3HvZ4RYE3q2kwrTHRIXKUYKpew1g8k"
+          "current_key": "AIzaSyAOT1v6kE-ZfwisRW7aaqtGRDuFnvwE5hU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "66358306826-vkf7us0c8idsfauslnpcbdgsuheov44p.apps.googleusercontent.com",
+              "client_id": "669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

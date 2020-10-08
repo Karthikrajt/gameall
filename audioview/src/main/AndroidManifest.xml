@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~           Copyright © 2015, 2018-2019 Stanislav Petriakov
+  ~  Distributed under the Boost Software License, Version 1.0.
+  ~     (See accompanying file LICENSE_1_0.txt or copy at
+  ~           http://www.boost.org/LICENSE_1_0.txt)
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keenfin.audioview">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application>
+
+        <service
+            android:name="com.keenfin.audioview.AudioService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+</manifest>

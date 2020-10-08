@@ -5,7 +5,7 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <com.siragu.gameall.view.MontserratTextView
+    <com.siragu.CMex.view.MontserratTextView
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <com.siragu.gameall.view.MontserratTextView
+            <com.siragu.CMex.view.MontserratTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start"
@@ -41,7 +41,7 @@
                 android:textColor="@color/colorTextSecondary"
                 android:textSize="18sp" />
 
-            <com.siragu.gameall.view.MontserratTextView
+            <com.siragu.CMex.view.MontserratTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start"
@@ -60,7 +60,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
-            <com.siragu.gameall.view.MontserratTextView
+            <com.siragu.CMex.view.MontserratTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"

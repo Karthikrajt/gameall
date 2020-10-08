@@ -102,7 +102,7 @@
                         android:contentDescription="@string/foxy_logo"
                         android:scaleType="centerCrop" />
 
-                    <com.siragu.gameall.view.MontserratEditText
+                    <com.siragu.CMex.view.MontserratEditText
                         android:id="@+id/add_a_comment_edittext"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"

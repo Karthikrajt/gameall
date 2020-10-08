@@ -36,7 +36,7 @@
                 android:layout_marginBottom="20dp"
                 android:src="@drawable/ic_text" />
 
-            <com.siragu.gameall.view.MontserratMediumTextView
+            <com.siragu.CMex.view.MontserratMediumTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -60,7 +60,7 @@
                 android:layout_marginBottom="20dp"
                 android:src="@drawable/ic_image" />
 
-            <com.siragu.gameall.view.MontserratMediumTextView
+            <com.siragu.CMex.view.MontserratMediumTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -85,7 +85,7 @@
                 android:layout_marginBottom="20dp"
                 android:src="@drawable/ic_video" />
 
-            <com.siragu.gameall.view.MontserratMediumTextView
+            <com.siragu.CMex.view.MontserratMediumTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"

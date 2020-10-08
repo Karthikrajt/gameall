@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CMex.iml" filepath="$PROJECT_DIR$/.idea/modules/CMex.iml" group="CMex" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WhatsappMessengerView/WhatsappMessengerView.iml" filepath="$PROJECT_DIR$/.idea/modules/WhatsappMessengerView/WhatsappMessengerView.iml" group="CMex/WhatsappMessengerView" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="CMex/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/audioview/audioview.iml" filepath="$PROJECT_DIR$/.idea/modules/audioview/audioview.iml" group="CMex/audioview" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-com.siragu.gameall
+com.siragu.CMex
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -122,11 +122,17 @@ attr allowStacking
 attr alpha
 attr alphabeticModifiers
 attr altSrc
+attr anim_scale_factor
 attr animate_relativeTo
 attr animationMode
 attr appBarLayoutStyle
 attr applyMotionScene
 attr arcMode
+attr arc_colors
+attr arc_margin
+attr arc_speed
+attr arc_style
+attr arc_thickness
 attr argType
 attr arrowHeadLength
 attr arrowShaftLength
@@ -236,6 +242,8 @@ attr chipStyle
 attr chipSurfaceColor
 attr circleCrop
 attr circleRadius
+attr circle_end_color
+attr circle_start_color
 attr civ_border_color
 attr civ_border_overlay
 attr civ_border_width
@@ -370,8 +378,11 @@ attr customColorValue
 attr customDimension
 attr customFloatValue
 attr customIntegerValue
+attr customLayout
 attr customNavigationLayout
+attr customPauseIcon
 attr customPixelDimension
+attr customPlayIcon
 attr customStringValue
 attr data
 attr dataPattern
@@ -395,6 +406,8 @@ attr divider
 attr dividerHorizontal
 attr dividerPadding
 attr dividerVertical
+attr dots_primary_color
+attr dots_secondary_color
 attr dragDirection
 attr dragScale
 attr dragThreshold
@@ -423,6 +436,7 @@ attr emojiBackground
 attr emojiDivider
 attr emojiIcons
 attr emojiSize
+attr enableVisualizer
 attr endIconCheckable
 attr endIconContentDescription
 attr endIconDrawable
@@ -629,6 +643,7 @@ attr layout_scrollFlags
 attr layout_scrollInterpolator
 attr liftOnScroll
 attr liftOnScrollTargetViewId
+attr liked
 attr limitBoundsTo
 attr lineHeight
 attr lineSpacing
@@ -684,6 +699,7 @@ attr mimeType
 attr minHeight
 attr minTouchTargetSize
 attr minWidth
+attr minified
 attr mock_diagonalsColor
 attr mock_label
 attr mock_labelBackgroundColor
@@ -738,6 +754,9 @@ attr percentY
 attr perpendicularPath_percent
 attr pivotAnchor
 attr placeholder_emptyVisibility
+attr playPauseBackgroundColor
+attr playPauseCornerRadius
+attr playProgressbarColor
 attr popEnterAnim
 attr popExitAnim
 attr popUpTo
@@ -748,9 +767,11 @@ attr popupTheme
 attr popupWindowStyle
 attr preserveIconSpacing
 attr pressedTranslationZ
+attr primaryColor
 attr progressBarPadding
 attr progressBarStyle
 attr progressCount
+attr progressTimeColor
 attr queryBackground
 attr queryHint
 attr radioButtonStyle
@@ -775,7 +796,10 @@ attr scrimVisibleHeightTrigger
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
+attr seekBarProgressColor
 attr seekBarStyle
+attr seekBarThumbColor
+attr selectControls
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
 attr shapeAppearance
@@ -783,6 +807,9 @@ attr shapeAppearanceLargeComponent
 attr shapeAppearanceMediumComponent
 attr shapeAppearanceOverlay
 attr shapeAppearanceSmallComponent
+attr shareBackgroundColor
+attr shareCornerRadius
+attr shareText
 attr shimmer_angle
 attr shimmer_animation_duration
 attr shimmer_auto_start
@@ -794,7 +821,9 @@ attr showAsAction
 attr showDividers
 attr showMotionSpec
 attr showPaths
+attr showShareButton
 attr showText
+attr showTiming
 attr showTitle
 attr shrinkMotionSpec
 attr singleChoiceItemLayout
@@ -913,6 +942,7 @@ attr thumbTintMode
 attr tickMark
 attr tickMarkTint
 attr tickMarkTintMode
+attr timingBackgroundColor
 attr tint
 attr tintMode
 attr title
@@ -949,8 +979,12 @@ attr ttcIndex
 attr uri
 attr useCompatPadding
 attr useMaterialThemeColors
+attr viewBackground
+attr viewCornerRadius
 attr viewInflaterClass
 attr visibilityMode
+attr visualizationNotPlayedColor
+attr visualizationPlayedColor
 attr voiceIcon
 attr warmth
 attr waveDecay
@@ -1127,6 +1161,7 @@ color gray
 color gray_scale
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color lightPink
 color light_gray
 color material_blue_grey_800
 color material_blue_grey_900
@@ -1204,6 +1239,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1586,6 +1622,7 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen progress_bar_height
+dimen stroke_width
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
@@ -1599,6 +1636,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+drawable _mex_logo
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -1702,6 +1740,8 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable camera_ic
 drawable chat_bg
 drawable circle_unread
+drawable cmex_logo_white
+drawable cmexlogo
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
 drawable com_facebook_auth_dialog_header_background
@@ -1822,6 +1862,9 @@ drawable googleg_standard_color_18
 drawable gradient_selected_left
 drawable gradient_selected_right
 drawable grey_circle
+drawable heart
+drawable heart_red
+drawable heart_selector
 drawable ic_action_tick
 drawable ic_add_black_24dp
 drawable ic_add_chat
@@ -1841,7 +1884,9 @@ drawable ic_camera_gray_40dp
 drawable ic_camera_white_24dp
 drawable ic_clear_black_24dp
 drawable ic_close_accent
+drawable ic_close_black_24dp
 drawable ic_comment
+drawable ic_comment_1
 drawable ic_comment_gray_18dp
 drawable ic_copy_24dp
 drawable ic_done_all_black
@@ -1851,14 +1896,18 @@ drawable ic_done_blue
 drawable ic_done_primary
 drawable ic_done_white_24dp
 drawable ic_edit_black_24dp
+drawable ic_fast_forward_black_24dp
+drawable ic_fast_rewind_black_24dp
 drawable ic_feedback
 drawable ic_file_download_40dp
 drawable ic_file_download_accent_36dp
+drawable ic_home
 drawable ic_image
 drawable ic_insert_emoticon_gray_24dp
 drawable ic_keyboard_arrow_left
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
+drawable ic_like_1
 drawable ic_like_blue_18dp
 drawable ic_like_gray_18dp
 drawable ic_lock
@@ -1876,12 +1925,14 @@ drawable ic_notifications
 drawable ic_notifications_primary_dark_24dp
 drawable ic_os_notification_fallback_white_24dp
 drawable ic_pause_circle_outline_36dp
+drawable ic_pause_white_24dp
 drawable ic_person
 drawable ic_person_32dp
 drawable ic_person_add_white_24dp
 drawable ic_person_gray_24dp
 drawable ic_person_white_24dp
 drawable ic_person_white_72dp
+drawable ic_play_arrow_white_24dp
 drawable ic_play_circle_outline
 drawable ic_play_circle_outline_36dp
 drawable ic_power_settings_purple
@@ -1889,9 +1940,11 @@ drawable ic_profile_24dp
 drawable ic_search_white_24dp
 drawable ic_send_message
 drawable ic_send_primary_dark_16dp
+drawable ic_settings_white
 drawable ic_settings_white_24dp
 drawable ic_share_blue_24dp
 drawable ic_share_gray_24dp
+drawable ic_share_white_24dp
 drawable ic_shopping_cart_white
 drawable ic_stat_onesignal_default
 drawable ic_stop
@@ -1902,6 +1955,7 @@ drawable ic_thumb_up
 drawable ic_thumb_up_accent_12dp
 drawable ic_thumb_up_gray_12dp
 drawable ic_thumb_up_gray_18dp
+drawable ic_user_group
 drawable ic_video
 drawable ic_video_24dp
 drawable ic_video_white_24dp
@@ -1909,6 +1963,7 @@ drawable ic_videocam_40dp
 drawable ic_waiting
 drawable ic_waiting_blue
 drawable loading_dots_dot
+drawable main_layout_bg
 drawable messenger_bubble_large_blue
 drawable messenger_bubble_large_white
 drawable messenger_bubble_small_blue
@@ -1929,6 +1984,7 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable my_gradient_drawable
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1942,10 +1998,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable on_tab
 drawable placeholder
 drawable placeholder_chat
 drawable placeholder_notiication
 drawable placeholder_post
+drawable play_pause_bg
 drawable record_audio_ic
 drawable recv_basket_animated
 drawable recv_bg_mic
@@ -1969,6 +2027,7 @@ drawable siragu_logo
 drawable stop_record_ic
 drawable stop_record_red_ic
 drawable test_custom_background
+drawable thumb
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font montserrat_bold
@@ -1977,11 +2036,13 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Comment_1
 id CropOverlayView
 id CropProgressBar
 id FUNCTION
 id FirstFragment
 id ImageView_image
+id Like_count
 id META
 id NO_DEBUG
 id SHIFT
@@ -2134,8 +2195,10 @@ id chronometer
 id clear_text
 id clip_horizontal
 id clip_vertical
+id close
 id collapseActionView
 id collapsingToolbar
+id collectorLinearLayout
 id com_facebook_body_frame
 id com_facebook_button_xout
 id com_facebook_device_auth_instructions
@@ -2148,9 +2211,12 @@ id com_facebook_tooltip_bubble_view_text_body
 id com_facebook_tooltip_bubble_view_top_pointer
 id commentContainer
 id comment_recycler_view
+id complete_arc
 id confirm_button
 id confirmation_code
+id constraintLayout
 id container
+id containerLinearLayout
 id content
 id contentPanel
 id coordinator
@@ -2223,6 +2289,7 @@ id expanded_menu
 id fab_bookmarks
 id fab_setting
 id fade
+id fast
 id feedback
 id fill
 id fill_horizontal
@@ -2239,6 +2306,7 @@ id followActionReject
 id followerCountContainer
 id followingCountContainer
 id forever
+id forward
 id frag_add_text_pic_empty_view
 id frag_add_text_pic_pic
 id frag_add_text_pic_txt
@@ -2293,7 +2361,11 @@ id imageViewLockArrow
 id imageViewMic
 id imageViewSend
 id imageViewStop
+id imgPause
+id imgPlay
+id imgShare
 id include
+id indeterminate
 id info
 id inline
 id invisible
@@ -2318,6 +2390,7 @@ id layoutSlideCancel
 id left
 id light
 id likeIcon
+id like_heart
 id line1
 id line3
 id linear
@@ -2348,6 +2421,8 @@ id list_item_notification_status
 id list_item_notification_time
 id ll_add_image
 id ll_top
+id loader
+id loadertext
 id loading_progress_bar
 id login_button
 id logout
@@ -2356,6 +2431,7 @@ id masked
 id max_progress
 id mediaPickerContainer
 id media_actions
+id medium
 id message
 id messenger_send_button
 id middle
@@ -2415,6 +2491,7 @@ id os_bgimage_notif_title
 id outline
 id oval
 id packed
+id paddedLinearLayout
 id page
 id parallax
 id parent
@@ -2425,6 +2502,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pb_play
 id peekHeight
 id percent
 id photo_view
@@ -2433,11 +2511,13 @@ id pickMedia
 id pickMediaMessage
 id pickedMedia
 id pin
+id play
 id playAll
 id playPauseToggle
 id playPauseToggleContainer
 id position
 id postLayout
+id profice_icon
 id profileFrame
 id profileRefreshProgress
 id progress
@@ -2460,6 +2540,7 @@ id recycler_view
 id reportConfirm
 id reverse
 id reverseSawtooth
+id rewind
 id right
 id right_icon
 id right_side
@@ -2487,6 +2568,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seekBar
+id seekBarV
 id select_dialog_listview
 id selected
 id send
@@ -2500,11 +2583,13 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id simple_arc
 id sin
 id skip
 id skipCollapsed
 id slide
 id slide_to_cancel
+id slow
 id small
 id smallLabel
 id snackbar_action
@@ -2578,6 +2663,7 @@ id toolbar
 id toolbarLogo
 id top
 id topPanel
+id total_time
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -2588,6 +2674,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_title
+id txtTime
 id unchecked
 id uniform
 id unknown
@@ -2614,6 +2701,7 @@ id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
 id wide
+id window
 id withText
 id wrap
 id wrap_content
@@ -2693,6 +2781,10 @@ layout activity_profile_detail
 layout activity_settings
 layout activity_splash_screen
 layout activity_status
+layout audio_notification
+layout audio_notification_minified
+layout audioview
+layout audioview_min
 layout bottom_bar
 layout bottom_sheet_report
 layout browser_actions_context_menu_page
@@ -2753,6 +2845,8 @@ layout list_item_comment
 layout list_item_home
 layout list_item_notification
 layout list_item_story_container
+layout loader_layout
+layout main_view
 layout messenger_button_send_blue_large
 layout messenger_button_send_blue_round
 layout messenger_button_send_blue_small
@@ -2876,6 +2970,7 @@ string app_info
 string app_name
 string appbar_scrolling_view_behavior
 string are_you_sure
+string audio_channel
 string authority
 string bottom_sheet_behavior
 string buy_app
@@ -3063,6 +3158,8 @@ string need_follow
 string new_msg_frm
 string next
 string no
+string no_artist
+string no_title
 string nothing_found
 string noti_comment_msg
 string noti_like_msg
@@ -3876,6 +3973,7 @@ styleable AppCompatTextHelper android_textAppearance android_drawableTop android
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType drawableBottomCompat drawableEndCompat drawableLeftCompat drawableRightCompat drawableStartCompat drawableTint drawableTintMode drawableTopCompat firstBaselineToTopHeight fontFamily fontVariationSettings lastBaselineToBottomHeight lineHeight textAllCaps textLocale
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogCornerRadius dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listChoiceIndicatorMultipleAnimated listChoiceIndicatorSingleAnimated listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingEnd listPreferredItemPaddingLeft listPreferredItemPaddingRight listPreferredItemPaddingStart panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
 styleable Badge backgroundColor badgeGravity badgeTextColor maxCharacterCount number
+styleable BaseAudioView customLayout customPauseIcon customPlayIcon minified primaryColor selectControls showTitle
 styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMode fabCradleMargin fabCradleRoundedCornerRadius fabCradleVerticalOffset hideOnScroll
 styleable BottomNavigationView backgroundTint elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemRippleColor itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
 styleable BottomSheetBehavior_Layout android_elevation backgroundTint behavior_expandedOffset behavior_fitToContents behavior_halfExpandedRatio behavior_hideable behavior_peekHeight behavior_saveFlags behavior_skipCollapsed shapeAppearance shapeAppearanceOverlay
@@ -3977,6 +4075,8 @@ styleable SearchView android_focusable android_maxWidth android_inputType androi
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
 styleable ShimmerLayout shimmer_angle shimmer_animation_duration shimmer_auto_start shimmer_color shimmer_gradient_center_color_width shimmer_mask_width shimmer_reverse_animation
 styleable SignInButton buttonSize colorScheme scopeUris
+styleable SimpleArcLoader arc_colors arc_margin arc_speed arc_style arc_thickness
+styleable SmallBangView anim_scale_factor circle_end_color circle_start_color dots_primary_color dots_secondary_color liked
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
@@ -4000,6 +4100,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+styleable VoicePlayerView enableVisualizer playPauseBackgroundColor playPauseCornerRadius playProgressbarColor progressTimeColor seekBarProgressColor seekBarThumbColor shareBackgroundColor shareCornerRadius shareText showShareButton showTiming timingBackgroundColor viewBackground viewCornerRadius visualizationNotPlayedColor visualizationPlayedColor
 styleable com_facebook_like_view com_facebook_auxiliary_view_position com_facebook_foreground_color com_facebook_horizontal_alignment com_facebook_object_id com_facebook_object_type com_facebook_style
 styleable com_facebook_login_view com_facebook_confirm_logout com_facebook_login_text com_facebook_logout_text com_facebook_tooltip_mode
 styleable com_facebook_profile_picture_view com_facebook_is_cropped com_facebook_preset_size

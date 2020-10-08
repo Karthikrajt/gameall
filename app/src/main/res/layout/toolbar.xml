@@ -4,7 +4,7 @@
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="?attr/colorPrimary"
+    android:background="@drawable/my_gradient_drawable"
     android:theme="@style/MyToolbarStyle"
     app:layout_scrollFlags="scroll|snap|enterAlways">
 
@@ -17,13 +17,14 @@
 
         <ImageView
             android:id="@+id/toolbarLogo"
-            android:layout_width="22dp"
-            android:layout_height="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
             android:layout_marginEnd="13dp"
             android:layout_marginRight="13dp"
-            android:src="@drawable/siragu_logo" />
+            android:src="@drawable/on_tab" />
 
-        <com.siragu.gameall.view.MontserratBoldTextView
+        <com.siragu.CMex.view.MontserratBoldTextView
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,6 +33,7 @@
             android:text="@string/app_name"
             android:textColor="@color/white"
             android:textSize="16sp"
+            android:visibility="visible"
             app:textAllCaps="true" />
     </LinearLayout>
 

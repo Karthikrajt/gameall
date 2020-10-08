@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true" />
 
-    <com.siragu.gameall.view.MontserratTextView
+    <com.siragu.CMex.view.MontserratTextView
         android:id="@+id/noResults"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

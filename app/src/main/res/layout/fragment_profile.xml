@@ -13,7 +13,7 @@
         android:id="@+id/ll_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary">
+        android:background="@drawable/my_gradient_drawable">
 
         <ImageView
             android:id="@+id/userImage"
@@ -40,7 +40,7 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <com.siragu.gameall.view.MontserratMediumTextView
+                <com.siragu.CMex.view.MontserratMediumTextView
                     android:id="@+id/userPostsCount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="15sp" />
 
-                <com.siragu.gameall.view.MontserratTextView
+                <com.siragu.CMex.view.MontserratTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="9dp"
@@ -64,7 +64,7 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <com.siragu.gameall.view.MontserratMediumTextView
+                <com.siragu.CMex.view.MontserratMediumTextView
                     android:id="@+id/userFollowersCount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="15sp" />
 
-                <com.siragu.gameall.view.MontserratTextView
+                <com.siragu.CMex.view.MontserratTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="9dp"
@@ -88,7 +88,7 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <com.siragu.gameall.view.MontserratMediumTextView
+                <com.siragu.CMex.view.MontserratMediumTextView
                     android:id="@+id/userFollowingCount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="15sp" />
 
-                <com.siragu.gameall.view.MontserratTextView
+                <com.siragu.CMex.view.MontserratTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="9dp"
@@ -106,7 +106,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <com.siragu.gameall.view.MontserratMediumTextView
+        <com.siragu.CMex.view.MontserratMediumTextView
             android:id="@+id/fullName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="-24dp"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_settings_white_24dp"
+        android:src="@drawable/ic_settings_white"
         app:fabSize="mini" />
 
 

@@ -21,7 +21,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/ic_person_gray_24dp" />
 
-        <com.siragu.gameall.view.MontserratMediumTextView
+        <com.siragu.CMex.view.MontserratMediumTextView
             android:id="@+id/list_item_notification_status"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
             android:textSize="12sp"
             android:textStyle="bold" />
 
-        <com.siragu.gameall.view.MontserratTextView
+        <com.siragu.CMex.view.MontserratTextView
             android:id="@+id/list_item_notification_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

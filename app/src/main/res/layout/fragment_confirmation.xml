@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <com.siragu.gameall.view.MontserratTextView
+    <com.siragu.CMex.view.MontserratTextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <com.siragu.gameall.view.MontserratTextView
+    <com.siragu.CMex.view.MontserratTextView
         android:id="@+id/message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
         android:gravity="bottom"
         android:orientation="horizontal">
 
-        <com.siragu.gameall.view.MontserratTextView
+        <com.siragu.CMex.view.MontserratTextView
             android:id="@+id/no"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <com.siragu.gameall.view.MontserratTextView
+        <com.siragu.CMex.view.MontserratTextView
             android:id="@+id/yes"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

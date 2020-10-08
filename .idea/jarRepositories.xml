@@ -41,5 +41,10 @@
       <option name="name" value="maven4" />
       <option name="url" value="http://dl.bintray.com/jlmd/maven" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="http://dl.bintray.com/piasy/maven" />
+    </remote-repository>
   </component>
 </project>

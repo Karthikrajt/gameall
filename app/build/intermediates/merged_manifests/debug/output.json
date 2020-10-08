@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.siragu.gameall",
+  "applicationId": "com.siragu.CMex",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "com.siragu.gameall",
+        "packageId": "com.siragu.CMex",
         "split": "",
         "minSdkVersion": "21"
       }

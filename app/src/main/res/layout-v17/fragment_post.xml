@@ -73,7 +73,7 @@
                     android:padding="16dp"
                     android:src="@drawable/ic_camera_alt_grey_24dp" />
 
-                <com.siragu.gameall.view.MontserratTextView
+                <com.siragu.CMex.view.MontserratTextView
                     android:id="@+id/pickMediaMessage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -89,13 +89,13 @@
             android:id="@+id/frag_post_edt_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@drawable/angular_grey_box"
             android:gravity="top"
             android:hint="@string/write_your_text"
             android:inputType="textNoSuggestions|textMultiLine"
             android:lines="4"
             android:maxHeight="96dp"
-            android:maxLength="140"
             android:padding="12dp"
             android:textSize="14sp" />
     </LinearLayout>
@@ -116,7 +116,7 @@
         android:gravity="end"
         android:orientation="horizontal">
 
-        <com.siragu.gameall.view.MontserratBoldTextView
+        <com.siragu.CMex.view.MontserratBoldTextView
             android:id="@+id/btn_close"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -132,7 +132,7 @@
             android:textSize="16sp" />
 
 
-        <com.siragu.gameall.view.MontserratBoldTextView
+        <com.siragu.CMex.view.MontserratBoldTextView
             android:id="@+id/frag_post_post_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -17,10 +17,15 @@
     <FrameLayout
         android:id="@+id/activity_main_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
 
-    <include layout="@layout/fragment_profile" />
+    </FrameLayout>
 
     <include layout="@layout/bottom_sheet_report" />
+
+    <include
+        layout="@layout/fragment_profile"
+        app:layout_anchor="@+id/activity_main_container"
+        app:layout_anchorGravity="center" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

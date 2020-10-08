@@ -39,7 +39,7 @@
                 android:layout_toEndOf="@+id/user_image"
                 android:orientation="horizontal">
 
-                <com.siragu.gameall.view.MontserratMediumTextView
+                <com.siragu.CMex.view.MontserratMediumTextView
                     android:id="@+id/user_name"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
-                <com.siragu.gameall.view.MontserratTextView
+                <com.siragu.CMex.view.MontserratTextView
                     android:id="@+id/time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                     android:textSize="10sp" />
             </LinearLayout>
 
-            <com.siragu.gameall.view.MontserratTextView
+            <com.siragu.CMex.view.MontserratTextView
                 android:id="@+id/message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

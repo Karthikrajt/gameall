@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.piasy:rxandroidaudio:1.6.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6af156ab9ba5c9fa14d2d750dbd19f43/jetified-rxandroidaudio-1.6.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6af156ab9ba5c9fa14d2d750dbd19f43/jetified-rxandroidaudio-1.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6af156ab9ba5c9fa14d2d750dbd19f43/jetified-rxandroidaudio-1.6.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.piasy/rxandroidaudio/1.6.0/37e054369d841b6f2974c607a5f007e538645d21/rxandroidaudio-1.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.piasy/rxandroidaudio/1.6.0/7fcf6a18a1d38e56b5a3aac057ad1d67f5d65620/rxandroidaudio-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

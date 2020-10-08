@@ -3,7 +3,7 @@ package com.bumptech.glide;
 import android.content.Context;
 import android.util.Log;
 import androidx.annotation.NonNull;
-import com.siragu.gameall.application.FlickrGlideModule;
+import com.siragu.CMex.application.FlickrGlideModule;
 import java.util.Collections;
 import java.util.Set;
 
@@ -14,7 +14,7 @@ final class GeneratedAppGlideModuleImpl extends GeneratedAppGlideModule {
   public GeneratedAppGlideModuleImpl(Context context) {
     appGlideModule = new FlickrGlideModule();
     if (Log.isLoggable("Glide", Log.DEBUG)) {
-      Log.d("Glide", "Discovered AppGlideModule from annotation: com.siragu.gameall.application.FlickrGlideModule");
+      Log.d("Glide", "Discovered AppGlideModule from annotation: com.siragu.CMex.application.FlickrGlideModule");
     }
   }
 

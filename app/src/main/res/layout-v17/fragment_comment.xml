@@ -1,8 +1,9 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutMain"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"  android:id="@+id/layoutMain"
-    app:cardBackgroundColor="@android:color/white">
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/bg_gray">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefresh"
@@ -20,10 +21,10 @@
                 android:layout_height="match_parent"
                 android:layout_above="@+id/commentContainer"
                 android:clipToPadding="false"
-                android:paddingBottom="40dp"
                 android:paddingStart="8dp"
+                android:paddingTop="4dp"
                 android:paddingEnd="8dp"
-                android:paddingTop="4dp" />
+                android:paddingBottom="40dp" />
 
             <LinearLayout
                 android:id="@+id/empty_view_container"
@@ -66,7 +67,7 @@
                     android:contentDescription="@string/foxy_logo"
                     android:scaleType="centerCrop" />
 
-                <com.siragu.gameall.view.MontserratEditText
+                <com.siragu.CMex.view.MontserratEditText
                     android:id="@+id/add_a_comment_edittext"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"

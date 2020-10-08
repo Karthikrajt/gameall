@@ -14,7 +14,7 @@
         android:layout_marginBottom="4dp"
         android:orientation="horizontal">
 
-        <com.siragu.gameall.view.MontserratMediumTextView
+        <com.siragu.CMex.view.MontserratMediumTextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -25,7 +25,7 @@
             android:textColor="#919191"
             android:textSize="10sp" />
 
-        <com.siragu.gameall.view.MontserratMediumTextView
+        <com.siragu.CMex.view.MontserratMediumTextView
             android:id="@+id/playAll"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

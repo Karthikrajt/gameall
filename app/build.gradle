@@ -40,13 +40,13 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.siragu.gameall"
+        applicationId "com.siragu.CMex"
 		
 		buildConfigField "String", "BASE_URL", '"http://jsonshift.com/GameAll/public/"'
         buildConfigField "boolean", "IS_DEMO", "false"
         buildConfigField "String", "DEMO_ACTION_LINK", '"http://bit.ly/cc_Weshare"'
         resValue 'string', "app_name", "CMex"
-        resValue 'string', "web_client_id", "66358306826-vkf7us0c8idsfauslnpcbdgsuheov44p.apps.googleusercontent.com"
+        resValue 'string', "web_client_id", "669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com"
         resValue 'string', "facebook_app_id", "asd"
         resValue 'string', "fb_login_protocol_scheme", ""
         resValue 'string', "admob_app_id", ""
@@ -55,9 +55,9 @@ android {
         resValue 'string', "support_email", "opuslabsin@gmail.com"
         resValue 'string', "authority", applicationId + ".fileprovider"
 
-        resValue 'color', "colorPrimary", "#ADD8E6"
-        resValue 'color', "colorPrimaryDark", "#ADD8E6"
-        resValue 'color', "colorAccent", "#F4B41A"
+        resValue 'color', "colorPrimary", "#F2AB22"
+        resValue 'color', "colorPrimaryDark", "#F06F1F"
+        resValue 'color', "colorAccent", "#2E2E2E"
 
         manifestPlaceholders = [onesignal_app_id: 'c136b40b-3afe-4474-a400-d9133a9a3469', onesignal_google_project_number: 'REMOTE']
 
@@ -118,7 +118,13 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.3.0'
     implementation 'androidx.navigation:navigation-ui:2.3.0'
     implementation 'com.devlomi.record-view:record-view:2.0.1'
-
+    implementation 'com.github.piasy:rxandroidaudio:1.6.0'
+    implementation 'com.github.piasy:AudioProcessor:1.6.0'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+    implementation 'com.github.JagarYousef:ChatVoicePlayer:1.0.7'
+    implementation project(':audioview')
+    implementation 'pub.hanks:smallbang:1.2.2'
+    implementation 'com.leo.simplearcloader:simplearcloader:1.0.+'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
 }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.siragu.gameall"
+    package="com.siragu.CMex"
     android:targetSandboxVersion="2"
     android:versionCode="18"
     android:versionName="4.0" >
@@ -23,10 +23,10 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="com.siragu.gameall.permission.C2D_MESSAGE"
+        android:name="com.siragu.CMex.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.siragu.gameall.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.siragu.CMex.permission.C2D_MESSAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- START: ShortcutBadger -->
     <!-- Samsung -->
     <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
@@ -45,13 +45,15 @@
     <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
     <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
     <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.siragu.gameall.application.BaseApplication"
+        android:name="com.siragu.CMex.application.BaseApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@drawable/siragu_logo"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
@@ -83,7 +85,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.siragu.gameall.activity.SplashScreenActivity"
+            android:name="com.siragu.CMex.activity.SplashScreenActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" >
             <intent-filter>
@@ -106,39 +108,39 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.siragu.gameall.activity.MainActivity"
+            android:name="com.siragu.CMex.activity.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.siragu.gameall.activity.SettingsActivity"
+            android:name="com.siragu.CMex.activity.SettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.siragu.gameall.activity.CommentActivity"
+            android:name="com.siragu.CMex.activity.CommentActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.siragu.gameall.activity.DetailHomeItemActivity"
+            android:name="com.siragu.CMex.activity.DetailHomeItemActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.siragu.gameall.activity.UserProfileDetailActivity"
+            android:name="com.siragu.CMex.activity.UserProfileDetailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.siragu.gameall.activity.FollowerFollowingActivity"
+            android:name="com.siragu.CMex.activity.FollowerFollowingActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.siragu.gameall.activity.FeedbackActivity"
+            android:name="com.siragu.CMex.activity.FeedbackActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name="com.siragu.gameall.activity.EditProfileActivityActivity"
+            android:name="com.siragu.CMex.activity.EditProfileActivityActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <provider
-            android:name="com.siragu.gameall.util.MyFileProvider"
+            android:name="com.siragu.CMex.util.MyFileProvider"
             android:authorities="@string/authority"
             android:exported="false"
             android:grantUriPermissions="true" >
@@ -148,19 +150,19 @@
         </provider>
 
         <activity
-            android:name="com.siragu.gameall.activity.StatusActivity"
+            android:name="com.siragu.CMex.activity.StatusActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.siragu.gameall.activity.MessagesActivity"
+            android:name="com.siragu.CMex.activity.MessagesActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.siragu.gameall.activity.BookmarksActivity"
+            android:name="com.siragu.CMex.activity.BookmarksActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.siragu.gameall.activity.ImageViewerActivity"
+            android:name="com.siragu.CMex.activity.ImageViewerActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
@@ -198,7 +200,7 @@
 
         <provider
             android:name="androidx.work.impl.WorkManagerInitializer"
-            android:authorities="com.siragu.gameall.workmanager-init"
+            android:authorities="com.siragu.CMex.workmanager-init"
             android:directBootAware="false"
             android:exported="false"
             android:multiprocess="true" />
@@ -301,7 +303,7 @@
 
         <provider
             android:name="com.crashlytics.android.CrashlyticsInitProvider"
-            android:authorities="com.siragu.gameall.crashlyticsinitprovider"
+            android:authorities="com.siragu.CMex.crashlyticsinitprovider"
             android:exported="false"
             android:initOrder="90" />
 
@@ -320,7 +322,7 @@
             <intent-filter android:priority="999" >
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.siragu.gameall" />
+                <category android:name="com.siragu.CMex" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
@@ -360,11 +362,16 @@
             </intent-filter>
         </receiver>
 
+        <service
+            android:name="com.keenfin.audioview.AudioService"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity android:name="com.facebook.CustomTabMainActivity" />
 
         <provider
             android:name="com.kbeanie.multipicker.utils.AMPFileProvider"
-            android:authorities="com.siragu.gameall.multipicker.fileprovider"
+            android:authorities="com.siragu.CMex.multipicker.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -405,7 +412,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.siragu.gameall.firebaseinitprovider"
+            android:authorities="com.siragu.CMex.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
         <!--
@@ -419,7 +426,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.siragu.gameall.FacebookInitProvider"
+            android:authorities="com.siragu.CMex.FacebookInitProvider"
             android:exported="false" />
 
         <receiver
