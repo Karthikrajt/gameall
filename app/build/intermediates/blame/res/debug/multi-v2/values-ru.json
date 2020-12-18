@@ -89,40 +89,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\630019019ffa57cb219a9c41127a86fc\\jetified-firebase-messaging-17.3.3\\res\\values-ru\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "100",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "104",
-                        "startColumns": "4",
-                        "startOffsets": "10497",
-                        "endColumns": "104",
-                        "endOffsets": "10597"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\1ff74b4641da8637fcad6405bb748f78\\jetified-facebook-login-5.13.0\\res\\values-ru\\values-ru.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,212,346,493,606,691,780,858,947,1035,1148,1255,1344,1433,1532,1654,1739,1826,2023,2118,2215,2330,2436",
-                        "endColumns": "156,133,146,112,84,88,77,88,87,112,106,88,88,98,121,84,86,196,94,96,114,105,159",
-                        "endOffsets": "207,341,488,601,686,775,853,942,1030,1143,1250,1339,1428,1527,1649,1734,1821,2018,2113,2210,2325,2431,2591"
-                    },
-                    "to": {
-                        "startLines": "39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3384,3541,3675,3822,3935,4020,4109,4187,4276,4364,4477,4584,4673,4762,4861,4983,5068,5155,5352,5447,5544,5659,5765",
-                        "endColumns": "156,133,146,112,84,88,77,88,87,112,106,88,88,98,121,84,86,196,94,96,114,105,159",
-                        "endOffsets": "3536,3670,3817,3930,4015,4104,4182,4271,4359,4472,4579,4668,4757,4856,4978,5063,5150,5347,5442,5539,5654,5760,5920"
-                    }
-                },
-                {
                     "source": "D:\\Client Project\\Android Project\\CMex\\audioview\\build\\intermediates\\packaged_res\\debug\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -157,6 +123,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\b5c4d8c93d61b99a697c8d99b09cabf3\\jetified-facebook-login-5.13.0\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,212,346,493,606,691,780,858,947,1035,1148,1255,1344,1433,1532,1654,1739,1826,2023,2118,2215,2330,2436",
+                        "endColumns": "156,133,146,112,84,88,77,88,87,112,106,88,88,98,121,84,86,196,94,96,114,105,159",
+                        "endOffsets": "207,341,488,601,686,775,853,942,1030,1143,1250,1339,1428,1527,1649,1734,1821,2018,2113,2210,2325,2431,2591"
+                    },
+                    "to": {
+                        "startLines": "39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3384,3541,3675,3822,3935,4020,4109,4187,4276,4364,4477,4584,4673,4762,4861,4983,5068,5155,5352,5447,5544,5659,5765",
+                        "endColumns": "156,133,146,112,84,88,77,88,87,112,106,88,88,98,121,84,86,196,94,96,114,105,159",
+                        "endOffsets": "3536,3670,3817,3930,4015,4104,4182,4271,4359,4472,4579,4668,4757,4856,4978,5063,5150,5347,5442,5539,5654,5760,5920"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\3eca00d1467e0c249e6c8429f0e3148a\\navigation-ui-2.3.0\\res\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2,3",
@@ -171,6 +154,23 @@
                         "startOffsets": "12364,12472",
                         "endColumns": "107,118",
                         "endOffsets": "12467,12586"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\b4ac16f6f02bc5ebed1737af02d66f87\\jetified-firebase-messaging-17.3.3\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "104",
+                        "startColumns": "4",
+                        "startOffsets": "10497",
+                        "endColumns": "104",
+                        "endOffsets": "10597"
                     }
                 }
             ]

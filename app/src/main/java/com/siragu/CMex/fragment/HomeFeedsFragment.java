@@ -340,8 +340,8 @@ public class HomeFeedsFragment extends Fragment implements ImagePickerCallback {
             @Override
             public void onResponse(Call<ArrayList<UserResponse>> call, Response<ArrayList<UserResponse>> response) {
                 if (response.isSuccessful() && mContext != null) {
-                 //   homeRecyclerAdapter.storyShow(response.body());
-                //    recyclerView.smoothScrollToPosition(0);
+                   // homeRecyclerAdapter.storyShow(response.body());
+                  //  recyclerView.smoothScrollToPosition(0);
                 }
             }
 

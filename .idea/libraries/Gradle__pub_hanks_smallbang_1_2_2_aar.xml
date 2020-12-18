@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5291630c0ef263266ab99831cd0438fc/jetified-smallbang-1.2.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5291630c0ef263266ab99831cd0438fc/jetified-smallbang-1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5291630c0ef263266ab99831cd0438fc/jetified-smallbang-1.2.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pub.hanks/smallbang/1.2.2/e9b44a98921104f314cbfda128063bfabf0fbd83/smallbang-1.2.2-javadoc.jar!/" />

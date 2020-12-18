@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9373e0b04df2350ec182ac465a448db/jetified-facebook-places-5.13.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9373e0b04df2350ec182ac465a448db/jetified-facebook-places-5.13.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9373e0b04df2350ec182ac465a448db/jetified-facebook-places-5.13.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-places/5.13.0/16ab4eb78beb6467b9495a40d22a2008f10f5a90/facebook-places-5.13.0-javadoc.jar!/" />

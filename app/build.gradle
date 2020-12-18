@@ -41,29 +41,29 @@ android {
 
     defaultConfig {
         applicationId "com.siragu.CMex"
-		
-		buildConfigField "String", "BASE_URL", '"http://jsonshift.com/GameAll/public/"'
+		//1025884306272-gvnbtuvnnbmf8vcfmm6upddk84gv2voc.apps.googleusercontent.com
+		buildConfigField "String", "BASE_URL", '"http://cubemex.in/app/public/"'
         buildConfigField "boolean", "IS_DEMO", "false"
-        buildConfigField "String", "DEMO_ACTION_LINK", '"http://bit.ly/cc_Weshare"'
+        buildConfigField "String", "DEMO_ACTION_LINK", '""'
         resValue 'string', "app_name", "CMex"
-        resValue 'string', "web_client_id", "669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com"
-        resValue 'string', "facebook_app_id", "asd"
-        resValue 'string', "fb_login_protocol_scheme", ""
+        resValue 'string', "web_client_id", "1025884306272-gvnbtuvnnbmf8vcfmm6upddk84gv2voc.apps.googleusercontent.com"
+        resValue 'string', "facebook_app_id", "732861227302484"
+        resValue 'string', "fb_login_protocol_scheme", "fb732861227302484"
         resValue 'string', "admob_app_id", ""
         resValue 'string', "admob_banner_id", ""
         resValue 'string', "dynamic_link_domain", ""
-        resValue 'string', "support_email", "opuslabsin@gmail.com"
+        resValue 'string', "support_email", "info@raavantech.com"
         resValue 'string', "authority", applicationId + ".fileprovider"
 
         resValue 'color', "colorPrimary", "#F2AB22"
         resValue 'color', "colorPrimaryDark", "#F06F1F"
         resValue 'color', "colorAccent", "#2E2E2E"
 
-        manifestPlaceholders = [onesignal_app_id: 'c136b40b-3afe-4474-a400-d9133a9a3469', onesignal_google_project_number: 'REMOTE']
+        manifestPlaceholders = [onesignal_app_id: '57609907-b85f-48df-9769-f2a891754c4d', onesignal_google_project_number: 'REMOTE']
 
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 18
+       versionCode 21
         versionName "4.0"
         multiDexEnabled true
     }

@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.siragu.CMex"
-4    android:versionCode="18"
+4    android:versionCode="20"
 5    android:versionName="4.0" >
 6
 7    <uses-sdk
@@ -46,67 +46,67 @@
 23-->[androidx.work:work-runtime:2.3.4] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\2ba871f33da52fe7270fdc559643a669\work-runtime-2.3.4\AndroidManifest.xml:28:5-77
 23-->[androidx.work:work-runtime:2.3.4] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\2ba871f33da52fe7270fdc559643a669\work-runtime-2.3.4\AndroidManifest.xml:28:22-74
 24    <permission
-24-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:7:5-9:47
+24-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:7:5-9:47
 25        android:name="com.siragu.CMex.permission.C2D_MESSAGE"
-25-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:8:9-63
+25-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:8:9-63
 26        android:protectionLevel="signature" />
-26-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:9:9-44
+26-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:9:9-44
 27
 28    <uses-permission android:name="com.siragu.CMex.permission.C2D_MESSAGE" />
-28-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:11:5-79
-28-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:11:22-76
+28-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:11:5-79
+28-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:11:22-76
 29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- START: ShortcutBadger -->
-29-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:17:5-82
-29-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:17:22-79
+29-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:17:5-82
+29-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:17:22-79
 30    <!-- Samsung -->
 31    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-31-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:31:5-86
-31-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:31:22-83
+31-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:31:5-86
+31-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:31:22-83
 32    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
-32-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:32:5-87
-32-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:32:22-84
+32-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:32:5-87
+32-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:32:22-84
 33    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-33-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:33:5-81
-33-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:33:22-78
+33-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:33:5-81
+33-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:33:22-78
 34    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
-34-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:34:5-83
-34-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:34:22-80
+34-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:34:5-83
+34-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:34:22-80
 35    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-35-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:35:5-88
-35-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:35:22-85
+35-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:35:5-88
+35-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:35:22-85
 36    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
-36-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:36:5-92
-36-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:36:22-89
+36-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:36:5-92
+36-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:36:22-89
 37    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
-37-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:37:5-84
-37-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:37:22-81
+37-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:37:5-84
+37-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:37:22-81
 38    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
-38-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:38:5-83
-38-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:38:22-80
+38-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:38:5-83
+38-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:38:22-80
 39    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-39-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:39:5-91
-39-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:39:22-88
+39-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:39:5-91
+39-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:39:22-88
 40    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-40-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:40:5-92
-40-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:40:22-89
+40-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:40:5-92
+40-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:40:22-89
 41    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
-41-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:41:5-93
-41-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:41:22-90
+41-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:41:5-93
+41-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:41:22-90
 42    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
-42-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:42:5-73
-42-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:42:22-70
+42-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:42:5-73
+42-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:42:22-70
 43    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-43-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:43:5-82
-43-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:43:22-79
+43-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:43:5-82
+43-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:43:22-79
 44    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
-44-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:44:5-83
-44-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:44:22-80
+44-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:44:5-83
+44-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:44:22-80
 45    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-45-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:45:5-88
-45-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:45:22-85
+45-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:45:5-88
+45-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:45:22-85
 46    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-46-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:46:5-89
-46-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:46:22-86
+46-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:46:5-89
+46-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:46:22-86
 47    <uses-permission android:name="android.permission.STORAGE" />
 47-->[:WhatsappMessengerView] D:\Client Project\Android Project\CMex\WhatsappMessengerView\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-66
 47-->[:WhatsappMessengerView] D:\Client Project\Android Project\CMex\WhatsappMessengerView\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-63
@@ -156,7 +156,7 @@
 72            android:label="@string/app_name"
 72-->D:\Client Project\Android Project\CMex\app\src\main\AndroidManifest.xml:38:13-45
 73            android:theme="@style/com_facebook_activity_theme" />
-73-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\64c8597d1a5e6e409960ff30908df9b3\jetified-facebook-common-5.13.0\AndroidManifest.xml:32:13-63
+73-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b8ec40d4cc6edbab308bfe987fe8c024\jetified-facebook-common-5.13.0\AndroidManifest.xml:32:13-63
 74        <activity
 74-->D:\Client Project\Android Project\CMex\app\src\main\AndroidManifest.xml:39:9-50:20
 75            android:name="com.facebook.CustomTabActivity"
@@ -380,11 +380,11 @@
 186                android:value="com.google.firebase.components.ComponentRegistrar" />
 186-->[com.google.firebase:firebase-dynamic-links:19.1.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\3a31d088915022b01e51bc33b9d52bbe\jetified-firebase-dynamic-links-19.1.0\AndroidManifest.xml:11:17-82
 187            <meta-data
-187-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+187-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
 188                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-188-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+188-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
 189                android:value="com.google.firebase.components.ComponentRegistrar" />
-189-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+189-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
 190        </service>
 191
 192        <activity
@@ -611,108 +611,108 @@
 307-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\077e3a4b8fd96c96704aa9245385cdac\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
 308
 309        <meta-data
-309-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:49:9-51:51
+309-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:49:9-51:51
 310            android:name="onesignal_app_id"
-310-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:50:13-44
-311            android:value="c136b40b-3afe-4474-a400-d9133a9a3469" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
-311-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:51:13-48
+310-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:50:13-44
+311            android:value="57609907-b85f-48df-9769-f2a891754c4d" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+311-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:51:13-48
 312        <meta-data
-312-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:53:9-55:70
+312-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:53:9-55:70
 313            android:name="onesignal_google_project_number"
-313-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:54:13-59
+313-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:54:13-59
 314            android:value="str:REMOTE" />
-314-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:55:13-67
+314-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:55:13-67
 315
 316        <receiver
-316-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:57:9-67:20
+316-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:57:9-67:20
 317            android:name="com.onesignal.GcmBroadcastReceiver"
-317-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:58:13-62
+317-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:58:13-62
 318            android:permission="com.google.android.c2dm.permission.SEND" >
-318-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:59:13-73
+318-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:59:13-73
 319
 320            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
 321            <intent-filter android:priority="999" >
-321-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:62:13-66:29
-321-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:62:28-50
+321-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:62:13-66:29
+321-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:62:28-50
 322                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-322-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:63:17-81
-322-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:63:25-78
+322-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:63:17-81
+322-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:63:25-78
 323
 324                <category android:name="com.siragu.CMex" />
-324-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:65:17-61
-324-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:65:27-58
+324-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:65:17-61
+324-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:65:27-58
 325            </intent-filter>
 326        </receiver>
 327        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
-327-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:68:9-77
-327-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:68:19-74
+327-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:68:9-77
+327-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:68:19-74
 328
 329        <service android:name="com.onesignal.GcmIntentService" />
-329-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:70:9-66
-329-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:70:18-63
+329-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:70:9-66
+329-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:70:18-63
 330        <service
-330-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:71:9-73:72
+330-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:71:9-73:72
 331            android:name="com.onesignal.GcmIntentJobService"
-331-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:72:13-61
+331-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:72:13-61
 332            android:permission="android.permission.BIND_JOB_SERVICE" />
-332-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:73:13-69
+332-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:73:13-69
 333        <service
-333-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:74:9-76:72
+333-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:74:9-76:72
 334            android:name="com.onesignal.RestoreJobService"
-334-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:75:13-59
+334-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:75:13-59
 335            android:permission="android.permission.BIND_JOB_SERVICE" />
-335-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:76:13-69
+335-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:76:13-69
 336        <service
-336-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:77:9-79:72
+336-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:77:9-79:72
 337            android:name="com.onesignal.RestoreKickoffJobService"
-337-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:78:13-66
+337-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:78:13-66
 338            android:permission="android.permission.BIND_JOB_SERVICE" />
-338-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:79:13-69
+338-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:79:13-69
 339        <service
-339-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:80:9-82:43
+339-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:80:9-82:43
 340            android:name="com.onesignal.SyncService"
-340-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:81:13-53
+340-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:81:13-53
 341            android:stopWithTask="true" />
-341-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:82:13-40
+341-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:82:13-40
 342        <service
-342-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:83:9-85:72
+342-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:83:9-85:72
 343            android:name="com.onesignal.SyncJobService"
-343-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:84:13-56
+343-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:84:13-56
 344            android:permission="android.permission.BIND_JOB_SERVICE" />
-344-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:85:13-69
+344-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:85:13-69
 345
 346        <activity
-346-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:87:9-89:75
+346-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:87:9-89:75
 347            android:name="com.onesignal.PermissionsActivity"
-347-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:88:13-61
+347-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:88:13-61
 348            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-348-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:89:13-72
+348-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:89:13-72
 349
 350        <service android:name="com.onesignal.NotificationRestoreService" />
-350-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:91:9-76
-350-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:91:18-73
+350-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:91:9-76
+350-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:91:18-73
 351
 352        <receiver android:name="com.onesignal.BootUpReceiver" >
-352-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:93:9-98:20
-352-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:93:19-62
+352-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:93:9-98:20
+352-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:93:19-62
 353            <intent-filter>
-353-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:94:13-97:29
+353-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:94:13-97:29
 354                <action android:name="android.intent.action.BOOT_COMPLETED" />
 354-->[androidx.work:work-runtime:2.3.4] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\2ba871f33da52fe7270fdc559643a669\work-runtime-2.3.4\AndroidManifest.xml:115:17-79
 354-->[androidx.work:work-runtime:2.3.4] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\2ba871f33da52fe7270fdc559643a669\work-runtime-2.3.4\AndroidManifest.xml:115:25-76
 355                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-355-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:96:17-82
-355-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:96:25-79
+355-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:96:17-82
+355-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:96:25-79
 356            </intent-filter>
 357        </receiver>
 358        <receiver android:name="com.onesignal.UpgradeReceiver" >
-358-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:99:9-103:20
-358-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:99:19-63
+358-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:99:9-103:20
+358-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:99:19-63
 359            <intent-filter>
-359-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:100:13-102:29
+359-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:100:13-102:29
 360                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-360-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:101:17-84
-360-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:101:25-81
+360-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:101:17-84
+360-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:101:25-81
 361            </intent-filter>
 362        </receiver>
 363
@@ -726,19 +726,19 @@
 367-->[:audioview] D:\Client Project\Android Project\CMex\audioview\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-36
 368
 369        <activity android:name="com.facebook.CustomTabMainActivity" />
-369-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\64c8597d1a5e6e409960ff30908df9b3\jetified-facebook-common-5.13.0\AndroidManifest.xml:33:9-71
-369-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\64c8597d1a5e6e409960ff30908df9b3\jetified-facebook-common-5.13.0\AndroidManifest.xml:33:19-68
+369-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b8ec40d4cc6edbab308bfe987fe8c024\jetified-facebook-common-5.13.0\AndroidManifest.xml:33:9-71
+369-->[com.facebook.android:facebook-common:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b8ec40d4cc6edbab308bfe987fe8c024\jetified-facebook-common-5.13.0\AndroidManifest.xml:33:19-68
 370
 371        <provider
-371-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6f5db041e3e0e2b0b7b95d5752d5e762\jetified-multipicker-1.6\AndroidManifest.xml:12:9-20:20
+371-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\ea09ec54ed77be87be1874dedbcb5801\jetified-multipicker-1.6\AndroidManifest.xml:12:9-20:20
 372            android:name="com.kbeanie.multipicker.utils.AMPFileProvider"
-372-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6f5db041e3e0e2b0b7b95d5752d5e762\jetified-multipicker-1.6\AndroidManifest.xml:13:13-73
+372-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\ea09ec54ed77be87be1874dedbcb5801\jetified-multipicker-1.6\AndroidManifest.xml:13:13-73
 373            android:authorities="com.siragu.CMex.multipicker.fileprovider"
-373-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6f5db041e3e0e2b0b7b95d5752d5e762\jetified-multipicker-1.6\AndroidManifest.xml:14:13-76
+373-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\ea09ec54ed77be87be1874dedbcb5801\jetified-multipicker-1.6\AndroidManifest.xml:14:13-76
 374            android:exported="false"
-374-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6f5db041e3e0e2b0b7b95d5752d5e762\jetified-multipicker-1.6\AndroidManifest.xml:15:13-37
+374-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\ea09ec54ed77be87be1874dedbcb5801\jetified-multipicker-1.6\AndroidManifest.xml:15:13-37
 375            android:grantUriPermissions="true" >
-375-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6f5db041e3e0e2b0b7b95d5752d5e762\jetified-multipicker-1.6\AndroidManifest.xml:16:13-47
+375-->[com.kbeanie:multipicker:1.6] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\ea09ec54ed77be87be1874dedbcb5801\jetified-multipicker-1.6\AndroidManifest.xml:16:13-47
 376            <meta-data
 376-->D:\Client Project\Android Project\CMex\app\src\main\AndroidManifest.xml:113:13-115:58
 377                android:name="android.support.FILE_PROVIDER_PATHS"
@@ -751,33 +751,33 @@
 382             no need for explicit permissions despite exported="true"
 383        -->
 384        <service
-384-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\630019019ffa57cb219a9c41127a86fc\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+384-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b4ac16f6f02bc5ebed1737af02d66f87\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
 385            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-385-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\630019019ffa57cb219a9c41127a86fc\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+385-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b4ac16f6f02bc5ebed1737af02d66f87\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
 386            android:exported="true" >
-386-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\630019019ffa57cb219a9c41127a86fc\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+386-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b4ac16f6f02bc5ebed1737af02d66f87\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
 387            <intent-filter android:priority="-500" >
-387-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\630019019ffa57cb219a9c41127a86fc\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
-387-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\630019019ffa57cb219a9c41127a86fc\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
+387-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b4ac16f6f02bc5ebed1737af02d66f87\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
+387-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b4ac16f6f02bc5ebed1737af02d66f87\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
 388                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-388-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\630019019ffa57cb219a9c41127a86fc\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
-388-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\630019019ffa57cb219a9c41127a86fc\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
+388-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b4ac16f6f02bc5ebed1737af02d66f87\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
+388-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b4ac16f6f02bc5ebed1737af02d66f87\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
 389            </intent-filter>
 390        </service>
 391
 392        <receiver
-392-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+392-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
 393            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-393-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+393-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
 394            android:exported="true"
-394-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+394-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
 395            android:permission="com.google.android.c2dm.permission.SEND" >
-395-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+395-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
 396            <intent-filter>
-396-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+396-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
 397                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-397-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:63:17-81
-397-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\53201e9cbda4c8cf82976d6f5e86a6d4\jetified-OneSignal-3.13.1\AndroidManifest.xml:63:25-78
+397-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:63:17-81
+397-->[com.onesignal:OneSignal:3.13.1] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\6942df5fa0272ef8f395c18b0f4bc8dd\jetified-OneSignal-3.13.1\AndroidManifest.xml:63:25-78
 398            </intent-filter>
 399        </receiver>
 400        <!--
@@ -785,17 +785,17 @@
 402             no need for explicit permissions despite exported="true"
 403        -->
 404        <service
-404-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+404-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
 405            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-405-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+405-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
 406            android:exported="true" >
-406-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+406-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
 407            <intent-filter android:priority="-500" >
-407-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
-407-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+407-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+407-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
 408                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-408-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
-408-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\d29bf48ac7b699047f88f8a40343ca6d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+408-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+408-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\38262ea49da88b4ff3987e787c32e6f0\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
 409            </intent-filter>
 410        </service>
 411
@@ -819,40 +819,40 @@
 424         a completely different provider.
 425        -->
 426        <provider
-426-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:39:9-42:40
+426-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:39:9-42:40
 427            android:name="com.facebook.internal.FacebookInitProvider"
-427-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:40:13-70
+427-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:40:13-70
 428            android:authorities="com.siragu.CMex.FacebookInitProvider"
-428-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:41:13-72
+428-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:41:13-72
 429            android:exported="false" />
-429-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:42:13-37
+429-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:42:13-37
 430
 431        <receiver
-431-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:44:9-50:20
+431-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:44:9-50:20
 432            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-432-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:45:13-86
+432-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:45:13-86
 433            android:exported="false" >
-433-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:46:13-37
+433-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:46:13-37
 434            <intent-filter>
-434-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:47:13-49:29
+434-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:47:13-49:29
 435                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-435-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:48:17-95
-435-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:48:25-92
+435-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:48:17-95
+435-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:48:25-92
 436            </intent-filter>
 437        </receiver>
 438        <receiver
-438-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:51:9-58:20
+438-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:51:9-58:20
 439            android:name="com.facebook.CampaignTrackingReceiver"
-439-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:52:13-65
+439-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:52:13-65
 440            android:exported="true"
-440-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:53:13-36
+440-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:53:13-36
 441            android:permission="android.permission.INSTALL_PACKAGES" >
-441-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:54:13-69
+441-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:54:13-69
 442            <intent-filter>
-442-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:55:13-57:29
+442-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:55:13-57:29
 443                <action android:name="com.android.vending.INSTALL_REFERRER" />
-443-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:56:17-79
-443-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\b0b1c29da95a71de44b451a93924fde8\jetified-facebook-core-5.13.0\AndroidManifest.xml:56:25-76
+443-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:56:17-79
+443-->[com.facebook.android:facebook-core:5.13.0] C:\Users\Karthik Raj T\.gradle\caches\transforms-2\files-2.1\10dffb41582228ff57a796d21beafaac\jetified-facebook-core-5.13.0\AndroidManifest.xml:56:25-76
 444            </intent-filter>
 445        </receiver>
 446

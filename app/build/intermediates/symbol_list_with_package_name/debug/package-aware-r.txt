@@ -1161,6 +1161,7 @@ color gray
 color gray_scale
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color lightPink
 color light_gray
 color material_blue_grey_800
@@ -1738,8 +1739,11 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable camera_ic
+drawable card_background_desgine
 drawable chat_bg
 drawable circle_unread
+drawable cm_logo
+drawable cm_logo_data
 drawable cmex_logo_white
 drawable cmexlogo
 drawable com_facebook_auth_dialog_background
@@ -2103,6 +2107,7 @@ id action_context_bar
 id action_copy
 id action_delete
 id action_divider
+id action_edit
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -2168,6 +2173,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnSubmit
 id btn_close
 id btn_post_comment
 id button
@@ -2314,12 +2320,14 @@ id frag_add_text_pic_video
 id frag_home_feeds_swipe_refresh_layout
 id frag_post_edt_title
 id frag_post_edt_txt
+id frag_post_edt_txt2
 id frag_post_foxy_logo
 id frag_post_post_btn
 id frag_profile_tab_layout
 id frag_settings_push_noti_comment_switch_view
 id frag_settings_push_noti_like_switch_view
 id frag_settings_support_mail
+id frag_update_btn
 id fragment_container_view_tag
 id fragment_notification_recycler_view
 id frameBookmark
@@ -2387,6 +2395,7 @@ id layoutLock
 id layoutMain
 id layoutMessage
 id layoutSlideCancel
+id layout_close
 id left
 id light
 id likeIcon
@@ -2394,6 +2403,7 @@ id like_heart
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id list_item_comment_foxy_img
@@ -2674,7 +2684,10 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_title
+id txtAndroid
+id txtJava
 id txtTime
+id txtWorld
 id unchecked
 id uniform
 id unknown
@@ -2798,6 +2811,7 @@ layout content_comment
 layout crop_image_activity
 layout crop_image_view
 layout custom_dialog
+layout custom_edit_box
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2813,6 +2827,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout edit_bottom_dialog
 layout emoji_adapter_item
 layout emoji_popup_window_skin
 layout emoji_view
@@ -2927,6 +2942,8 @@ menu menu_home_item
 menu menu_main
 menu nosearch
 mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
 raw consumer_onesignal_keep
@@ -3467,6 +3484,8 @@ style CardView
 style CardView_Dark
 style CardView_Light
 style CardViewStyle
+style CustomBottomSheetDialogTheme
+style CustomBottomSheetStyle
 style EmptyTheme
 style MaterialAlertDialog_MaterialComponents
 style MaterialAlertDialog_MaterialComponents_Body_Text

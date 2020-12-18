@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "669475687519",
-    "firebase_url": "https://cmex-70696.firebaseio.com",
-    "project_id": "cmex-70696",
-    "storage_bucket": "cmex-70696.appspot.com"
+    "project_number": "1025884306272",
+    "firebase_url": "https://cmex-8859d.firebaseio.com",
+    "project_id": "cmex-8859d",
+    "storage_bucket": "cmex-8859d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:669475687519:android:0a90626bb32835e3555fea",
+        "mobilesdk_app_id": "1:1025884306272:android:0d72f2a060150f6e8d3c05",
         "android_client_info": {
           "package_name": "com.siragu.CMex"
         }
       },
       "oauth_client": [
         {
-          "client_id": "669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com",
+          "client_id": "1025884306272-qjjlfasppb4raogd3mm9pdnh05ersr3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siragu.CMex",
+            "certificate_hash": "885e4114970c35cd1a2265280102709cf3fab2ef"
+          }
+        },
+        {
+          "client_id": "1025884306272-gvnbtuvnnbmf8vcfmm6upddk84gv2voc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAOT1v6kE-ZfwisRW7aaqtGRDuFnvwE5hU"
+          "current_key": "AIzaSyCrHJ-3yAtwuxZS6YPTlvstbQIYUsupz-Y"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com",
+              "client_id": "1025884306272-gvnbtuvnnbmf8vcfmm6upddk84gv2voc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

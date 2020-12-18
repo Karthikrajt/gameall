@@ -4,7 +4,7 @@
             "outputFile": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\56e968accb83fb44b7da21ac162ff2ce\\jetified-emoji-0.6.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Karthik Raj T\\.gradle\\caches\\transforms-2\\files-2.1\\c8cfde54656804132d7d2d88e3ea1030\\jetified-emoji-0.6.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

@@ -144,7 +144,9 @@ public class Post implements Parcelable {
     public String getTitle() {
         return title;
     }
-
+    public void setTitle(String title) {
+        this.title = title;
+    }
     public Post(String postId, String title, String text, String attachment, String type, Integer videoTextLocation, String videoThumbnailUrl, UserMeta userMeta) {
         this.id = postId;
         this.text = text;

@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e05a03fc379f1532356669c5ccaeb8d0/jetified-loading-dots-1.0.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e05a03fc379f1532356669c5ccaeb8d0/jetified-loading-dots-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e05a03fc379f1532356669c5ccaeb8d0/jetified-loading-dots-1.0.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.eyalbira.loadingdots/loading-dots/1.0.2/cbf9e1689bc1261455cae91f92a00fd24b36113b/loading-dots-1.0.2-javadoc.jar!/" />

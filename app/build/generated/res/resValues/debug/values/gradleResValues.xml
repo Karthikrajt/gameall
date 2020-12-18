@@ -14,9 +14,9 @@
     <color name="colorPrimaryDark">#F06F1F</color>
 
     <string name="dynamic_link_domain" translatable="false"></string>
-    <string name="facebook_app_id" translatable="false">asd</string>
-    <string name="fb_login_protocol_scheme" translatable="false"></string>
-    <string name="support_email" translatable="false">opuslabsin@gmail.com</string>
-    <string name="web_client_id" translatable="false">669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com</string>
+    <string name="facebook_app_id" translatable="false">732861227302484</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb732861227302484</string>
+    <string name="support_email" translatable="false">info@raavantech.com</string>
+    <string name="web_client_id" translatable="false">1025884306272-gvnbtuvnnbmf8vcfmm6upddk84gv2voc.apps.googleusercontent.com</string>
 
 </resources>

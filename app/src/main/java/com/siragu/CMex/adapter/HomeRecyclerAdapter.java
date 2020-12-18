@@ -1,7 +1,11 @@
 package com.siragu.CMex.adapter;
 
+import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
 import android.net.Uri;
 
@@ -11,6 +15,7 @@ import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.core.content.ContextCompat;
+import androidx.fragment.app.FragmentActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,6 +27,9 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -41,6 +49,7 @@ import com.google.firebase.dynamiclinks.ShortDynamicLink;
 import com.siragu.CMex.activity.StatusActivity;
 import com.siragu.CMex.activity.UserProfileDetailActivity;
 import com.siragu.CMex.fragment.CommentsFragment;
+import com.siragu.CMex.fragment.EditBottomfragment;
 import com.siragu.CMex.fragment.HomeFeedsFragment;
 import com.siragu.CMex.listener.OnCommentAddListener;
 import com.siragu.CMex.listener.OnPopupMenuItemClickListener;
@@ -59,6 +68,7 @@ import com.siragu.CMex.util.SpringAnimationHelper;
 import com.siragu.CMex.network.ApiUtils;
 import com.siragu.CMex.network.response.LikeDislikeResponse;
 import com.google.gson.JsonObject;
+import com.siragu.CMex.view.MontserratBoldTextView;
 import com.siragu.CMex.view.SquareVideoView;
 
 import java.util.ArrayList;
@@ -641,7 +651,9 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                         SpringAnimationHelper.performAnimation(view);
                         PopupMenu popup = new PopupMenu(context, view);
                         popup.inflate(R.menu.menu_home_item);
+                        popup.getMenu().getItem(0).setVisible(!post.getUserMetaData().getId().equals(userMe.getId()));
                         popup.getMenu().getItem(1).setVisible(post.getUserMetaData().getId().equals(userMe.getId()));
+                        popup.getMenu().getItem(2).setVisible(post.getUserMetaData().getId().equals(userMe.getId()));
                         popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                             @Override
                             public boolean onMenuItemClick(MenuItem item) {
@@ -650,9 +662,23 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                                         reportPost(post.getId());
                                         break;
                                     case R.id.action_delete:
-                                        deletePost(post.getId());
+                                        deletePost(post.getId(),"&_karthikraj.than@gmail.com_&");
                                         Toast.makeText(context, R.string.post_deleted, Toast.LENGTH_SHORT).show();
                                         removeItemAt(pos);
+                                        break;
+
+                                    case R.id.action_edit:
+
+                                        showDialog(context,post.getTitle(),post.getId(),pos);
+
+                                      /*  EditBottomfragment filterBottomFragment = new EditBottomfragment();
+                                        //set filterBottomFragment.setCancelable(true) if you want to cancel on touch out side;
+                                        filterBottomFragment.setCancelable(true);
+                                        //filterBottomFragment.setFilterTagClickListener(this);
+                                        filterBottomFragment.setCancelable(true);
+                                        filterBottomFragment.show(((FragmentActivity)context).getSupportFragmentManager(), filterBottomFragment.getTag());
+                                        */
+
                                         break;
                                 }
                                 return false;
@@ -672,6 +698,66 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
         }
     }
 
+    public void showDialog(Context activity, String title, String postid, int pos) {
+
+        final Dialog dialog = new Dialog(activity);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setCancelable(true);
+        dialog.setContentView(R.layout.custom_edit_box);
+
+        dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT,
+                WindowManager.LayoutParams.MATCH_PARENT);
+
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        MontserratBoldTextView  btn_close = (MontserratBoldTextView) dialog.findViewById(R.id.btn_close);
+//frag_update_btn
+        MontserratBoldTextView  frag_update_btn = (MontserratBoldTextView) dialog.findViewById(R.id.frag_update_btn);
+        ConstraintLayout layout_close = (ConstraintLayout) dialog.findViewById(R.id.layout_close);
+        final EditText frag_post_edt_txt2 = (EditText) dialog.findViewById(R.id.frag_post_edt_txt2);
+        layout_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                dialog.cancel();
+            }
+        });
+        btn_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                dialog.cancel();
+            }
+        });
+        frag_update_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                deletePost(postid,frag_post_edt_txt2.getText().toString());
+                Toast.makeText(context, "Updated Successfully.", Toast.LENGTH_SHORT).show();
+                Post post = getItem(pos);
+                post.setTitle(frag_post_edt_txt2.getText().toString());
+
+                notifyItemChanged(pos);
+
+                dialog.cancel();
+              //  dialog.cancel();
+            }
+        });
+       // text.setText(msg);
+
+        //frag_post_edt_txt2
+
+
+
+
+         frag_post_edt_txt2.setText(title);
+
+
+
+        dialog.show();
+
+    }
+
     private void reportPost(String id) {
         foxyService.reportPost(sharedPreferenceUtil.getStringPreference(Constants.KEY_API_KEY, null), id).enqueue(new Callback<JsonObject>() {
             @Override
@@ -688,8 +774,8 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
         });
     }
 
-    private void deletePost(String id) {
-        foxyService.deletePost(sharedPreferenceUtil.getStringPreference(Constants.KEY_API_KEY, null), id).enqueue(new Callback<JsonObject>() {
+    private void deletePost(String id,String Message) {
+        foxyService.deletePost(sharedPreferenceUtil.getStringPreference(Constants.KEY_API_KEY, null), id,Message).enqueue(new Callback<JsonObject>() {
             @Override
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
                 response.isSuccessful();

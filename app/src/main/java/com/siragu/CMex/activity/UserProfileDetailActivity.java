@@ -362,6 +362,7 @@ public class UserProfileDetailActivity extends AppCompatActivity {
         menuActionReport = menu.findItem(R.id.action_report);
         menuActionReport.setVisible(false);
         menu.findItem(R.id.action_delete).setVisible(false);
+        menu.findItem(R.id.action_edit).setVisible(false);
         return super.onCreateOptionsMenu(menu);
     }
 

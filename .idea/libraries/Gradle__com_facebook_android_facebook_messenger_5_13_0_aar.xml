@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e03c6dc2c23e68c13f474ce3502a7da8/jetified-facebook-messenger-5.13.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e03c6dc2c23e68c13f474ce3502a7da8/jetified-facebook-messenger-5.13.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e03c6dc2c23e68c13f474ce3502a7da8/jetified-facebook-messenger-5.13.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-messenger/5.13.0/219f6b271a912d676e502d721fefea5c998ee285/facebook-messenger-5.13.0-javadoc.jar!/" />

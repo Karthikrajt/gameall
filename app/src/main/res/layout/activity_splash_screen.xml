@@ -16,9 +16,9 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="132dp"
-            android:layout_height="132dp"
-            android:src="@drawable/_mex_logo" />
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cm_logo" />
 
         <TextView
             android:id="@+id/title"

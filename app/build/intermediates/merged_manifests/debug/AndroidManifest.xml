@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.siragu.CMex"
-    android:versionCode="18"
+    android:versionCode="20"
     android:versionName="4.0" >
 
     <uses-sdk
@@ -308,7 +308,7 @@
 
         <meta-data
             android:name="onesignal_app_id"
-            android:value="c136b40b-3afe-4474-a400-d9133a9a3469" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+            android:value="57609907-b85f-48df-9769-f2a891754c4d" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
         <meta-data
             android:name="onesignal_google_project_number"
             android:value="str:REMOTE" />

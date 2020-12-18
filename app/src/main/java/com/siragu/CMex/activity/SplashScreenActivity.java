@@ -1,6 +1,9 @@
 package com.siragu.CMex.activity;
 
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.text.TextUtils;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
@@ -58,6 +62,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GetTokenResult;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 import retrofit2.Call;
@@ -121,7 +127,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         Constants.Shoppker = false;
-
+        printKeyHash();
         sharedPreferenceUtil = new SharedPreferenceUtil(this);
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         initUi();
@@ -185,6 +191,26 @@ public class SplashScreenActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+
+    private void printKeyHash() {
+
+
+        // Add code to print out the key hash
+        try {
+            PackageInfo info;
+            info = getPackageManager().getPackageInfo("com.siragu.CMex", PackageManager.GET_SIGNATURES);
+            for (Signature signature : info.signatures) {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.e("KeyHash:", e.toString());
+        } catch (NoSuchAlgorithmException e) {
+            Log.e("KeyHash:", e.toString());
+        }
     }
 
     private void setupAuth() {
@@ -291,8 +317,9 @@ public class SplashScreenActivity extends AppCompatActivity {
                 Log.w("GoogleSignIn", "Google sign in failed", e);
                 // ...
             }
+        }else {
+            facebookCallbackManager.onActivityResult(requestCode, resultCode, data);
         }
-//        facebookCallbackManager.onActivityResult(requestCode, resultCode, data);
     }
 
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {

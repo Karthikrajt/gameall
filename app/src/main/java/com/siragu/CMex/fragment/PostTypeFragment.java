@@ -56,7 +56,7 @@ public class PostTypeFragment extends Fragment implements View.OnClickListener {
         userMe = Helper.getLoggedInUser(sharedPreferenceUtil);
         if (userMe != null)
         {
-            if(userMe.getId().toString().toLowerCase().equals("10"))
+            if(userMe.getId().toString().toLowerCase().equals("21"))
             {
                 view.findViewById(R.id.frag_add_text_pic_video).setVisibility(View.VISIBLE);
             }

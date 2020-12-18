@@ -494,6 +494,7 @@
     <color name="gray_scale">#8affffff</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
     <color name="lightPink">#ef818c</color>
     <color name="light_gray">#f7f7f7</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -1071,7 +1072,7 @@
     <string name="chats">Chats</string>
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">9886d5bd-a4c7-4b77-8154-9332647709b1</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">4649e0db-a2ca-419a-aa1e-0879a39c04b2</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -1129,7 +1130,7 @@
     <string name="crop_image_menu_flip_vertically">Flip vertically</string>
     <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
     <string name="crop_image_menu_rotate_right">Rotate</string>
-    <string name="default_web_client_id" translatable="false">669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">1025884306272-gvnbtuvnnbmf8vcfmm6upddk84gv2voc.apps.googleusercontent.com</string>
     <string name="define_emoji">year;owner</string>
     <string name="delete">Delete</string>
     <string name="dynamic_link_domain" translatable="false"/>
@@ -1149,19 +1150,19 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
-    <string name="facebook_app_id" translatable="false">asd</string>
+    <string name="facebook_app_id" translatable="false">732861227302484</string>
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="fb_login_protocol_scheme" translatable="false"/>
+    <string name="fb_login_protocol_scheme" translatable="false">fb732861227302484</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="feedback_heading_1">We\'re working hard to giving you the best user experience</string>
     <string name="feedback_heading_2">Suggest us and leave your opinion to improve us.</string>
     <string name="feeds">Feeds</string>
     <string name="file_no">File unavailable</string>
     <string name="find_it">find it</string>
-    <string name="firebase_database_url" translatable="false">https://cmex-70696.firebaseio.com</string>
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="firebase_database_url" translatable="false">https://cmex-8859d.firebaseio.com</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
     <string name="follow_request">Follow Request</string>
     <string name="follow_request_added">Follow request submitted</string>
     <string name="follow_request_removed">Follow request removed</string>
@@ -1173,18 +1174,18 @@
     <string name="foxy_logo">Foxy Logo</string>
     <string name="full_name">Full Name</string>
     <string name="gallery">Gallery</string>
-    <string name="gcm_defaultSenderId" translatable="false">669475687519</string>
+    <string name="gcm_defaultSenderId" translatable="false">1025884306272</string>
     <string name="gender">Gender</string>
     <string name="gender_female">Female</string>
     <string name="gender_male">Male</string>
     <string name="gender_other">Other</string>
     <string name="get_support_at">Get support at …</string>
-    <string name="google_api_key" translatable="false">AIzaSyAOT1v6kE-ZfwisRW7aaqtGRDuFnvwE5hU</string>
-    <string name="google_app_id" translatable="false">1:669475687519:android:0a90626bb32835e3555fea</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAOT1v6kE-ZfwisRW7aaqtGRDuFnvwE5hU</string>
-    <string name="google_storage_bucket" translatable="false">cmex-70696.appspot.com</string>
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="google_api_key" translatable="false">AIzaSyCrHJ-3yAtwuxZS6YPTlvstbQIYUsupz-Y</string>
+    <string name="google_app_id" translatable="false">1:1025884306272:android:0d72f2a060150f6e8d3c05</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCrHJ-3yAtwuxZS6YPTlvstbQIYUsupz-Y</string>
+    <string name="google_storage_bucket" translatable="false">cmex-8859d.appspot.com</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hint_search_users">Search users</string>
     <string name="home_tab">Home tab</string>
@@ -1245,7 +1246,7 @@
     <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
     <string name="need_follow">You need to follow</string>
     <string name="new_msg_frm">New message from</string>
-    <string name="next">Next</string>
+    <string name="next" translatable="false">Next</string>
     <string name="no">No</string>
     <string name="no_artist">No artist</string>
     <string name="no_title">No title</string>
@@ -1267,7 +1268,7 @@
     <string name="post_reported">You reported this post</string>
     <string name="posted">Posted</string>
     <string name="posts">Posts</string>
-    <string name="previous">Previous</string>
+    <string name="previous" translatable="false">Previous</string>
     <string name="process_wait">Processing, Please wait!</string>
     <string name="profile">Profile</string>
     <string name="profile_basics_setup">You need to provide some basic information</string>
@@ -1277,7 +1278,7 @@
     <string name="profile_public">Public</string>
     <string name="profile_updated">Profile Updated</string>
     <string name="profile_visibility">Profile Visibility</string>
-    <string name="project_id" translatable="false">cmex-70696</string>
+    <string name="project_id" translatable="false">cmex-8859d</string>
     <string name="push_notification">Push Notification</string>
     <string name="rate_us">Rate us</string>
     <string name="recording_cancelled">Recording cancelled</string>
@@ -1294,7 +1295,7 @@
     <string name="reported">User Reported</string>
     <string name="search">Search</string>
     <string name="search_menu_title">Search</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
     <string name="settings_updated">Settings Updated</string>
     <string name="share">Share</string>
     <string name="share_app">Share app</string>
@@ -1306,12 +1307,12 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_add">Add story</string>
     <string name="story_media_from">Get story from</string>
-    <string name="support_email" translatable="false">opuslabsin@gmail.com</string>
+    <string name="support_email" translatable="false">info@raavantech.com</string>
     <string name="sure_logout">Are you sure you want to logout?</string>
     <string name="swipe_retry">( Swipe down to retry. )</string>
     <string name="swipe_retry_left">(Slide left to cancel)</string>
     <string name="text">Text</string>
-    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_comment" translatable="false">CommentActivity</string>
     <string name="title_bookmarks">BOOKMARKS</string>
     <string name="title_feeds_private">Private feeds</string>
     <string name="title_feeds_public">Public feeds</string>
@@ -1328,7 +1329,7 @@
     <string name="video">Video</string>
     <string name="video_short_msg">Please choose video less than 10MB</string>
     <string name="view_amazin_post">View this amazing post on</string>
-    <string name="web_client_id" translatable="false">669475687519-bb7vscqpt22crsk0pd77vuc2pmc5ijfj.apps.googleusercontent.com</string>
+    <string name="web_client_id" translatable="false">1025884306272-gvnbtuvnnbmf8vcfmm6upddk84gv2voc.apps.googleusercontent.com</string>
     <string name="write_your_text">Write your text</string>
     <string name="yes">Yes</string>
     <string name="your_name">Your name</string>
@@ -3195,6 +3196,10 @@
         <item name="cardElevation">@dimen/card_elevation</item>
         <item name="cardPreventCornerOverlap">false</item>
         <item name="cardUseCompatPadding">true</item>
+    </style>
+    <style name="CustomBottomSheetDialogTheme">#00000000</style>
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
     </style>
     <style name="EmptyTheme"/>
     <style name="MaterialAlertDialog.MaterialComponents" parent="AlertDialog.AppCompat">

@@ -94,7 +94,7 @@ public interface DrService {
 
     @Headers("Accept: application/json")
     @DELETE("api/posts/{id}/delete")
-    Call<JsonObject> deletePost(@Header("Authorization") String token, @Path("id") String postId);
+    Call<JsonObject> deletePost(@Header("Authorization") String token, @Path("id") String postId, @Query("message") String message);
 
     @Headers("Accept: application/json")
     @GET("api/posts/{id}/report")

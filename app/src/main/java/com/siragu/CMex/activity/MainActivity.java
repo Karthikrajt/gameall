@@ -518,7 +518,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.bottom_bar_tab5:
                // selectTabIndex(4);
                 //startActivity(new Intent(this, SettingsActivity.class));
-                startActivity(UserProfileDetailActivity.newInstance(this, "10", " ", "https://firebasestorage.googleapis.com/v0/b/cmex-70696.appspot.com/o/pictures%2Fcropped672926770183899610.jpg?alt=media&token=99576056-21ec-45ad-bf51-f4439bfb7a59"));
+                startActivity(UserProfileDetailActivity.newInstance(this, "21", " ", "https://firebasestorage.googleapis.com/v0/b/cmex-70696.appspot.com/o/pictures%2Fcropped672926770183899610.jpg?alt=media&token=99576056-21ec-45ad-bf51-f4439bfb7a59"));
 
                 break;
             case R.id.bottom_bar_tab4:

@@ -80,6 +80,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_comment.png"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person.png.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_person.png"
     },
@@ -88,12 +92,12 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_keyboard_arrow_right_black_24dp.png"
     },
     {
-        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_white_24dp.xml.flat",
-        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_person_white_24dp.xml"
-    },
-    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_comment.png.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_comment.png"
+    },
+    {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_white_24dp.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_person_white_24dp.xml"
     },
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_send_message.xml.flat",
@@ -164,6 +168,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_send_primary_dark_16dp.xml"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_keyboard_arrow_right_black_24dp.png.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xhdpi\\ic_keyboard_arrow_right_black_24dp.png"
     },
@@ -200,6 +208,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_like_gray_18dp.xml"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_edit_box.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\custom_edit_box.xml"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications.png.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_notifications.png"
     },
@@ -218,6 +230,10 @@
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_unread.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\circle_unread.xml"
+    },
+    {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder.jpg.flat",
@@ -376,6 +392,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_stat_onesignal_default.png"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_edit_bottom_dialog.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\edit_bottom_dialog.xml"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_32dp.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_person_32dp.xml"
     },
@@ -404,6 +424,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout-v17\\fragment_confirmation.xml"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cm_logo.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\cm_logo.png"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_circle.png.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_add_circle.png"
     },
@@ -420,6 +444,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\list_item_add.xml"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_image.png.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-hdpi\\ic_image.png"
     },
@@ -430,6 +458,10 @@
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\anim_bottom_down.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\anim\\bottom_down.xml"
+    },
+    {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_selected_left.xml.flat",
@@ -492,6 +524,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\content_comment.xml"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_circle.png.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-mdpi\\ic_add_circle.png"
     },
@@ -526,6 +562,10 @@
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_empty_view.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\empty_view.xml"
+    },
+    {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done_primary.xml.flat",
@@ -740,6 +780,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\menu\\nosearch.xml"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_bg_card.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\selector_bg_card.xml"
     },
@@ -752,8 +796,16 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_circle.png"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_user_group.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_user_group.xml"
+    },
+    {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_keyboard_arrow_left.png.flat",
@@ -782,6 +834,10 @@
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_primary_buy.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_primary_buy.xml"
+    },
+    {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_background_desgine.xml.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\card_background_desgine.xml"
     },
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_image_viewer.xml.flat",
@@ -816,6 +872,10 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\layout\\activity_bookmarks.xml"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cm_logo_data.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\cm_logo_data.png"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_grey_circle.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\grey_circle.xml"
     },
@@ -828,12 +888,20 @@
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\ic_comment_1.xml"
     },
     {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_bg_color_primary.xml.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable\\rounded_bg_color_primary.xml"
     },
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_keyboard_arrow_left.png.flat",
         "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_keyboard_arrow_left.png"
+    },
+    {
+        "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Client Project\\Android Project\\CMex\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Client Project\\Android Project\\CMex\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_follower_following.xml.flat",

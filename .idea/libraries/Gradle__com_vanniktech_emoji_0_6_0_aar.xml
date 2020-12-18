@@ -3,6 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56e968accb83fb44b7da21ac162ff2ce/jetified-emoji-0.6.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56e968accb83fb44b7da21ac162ff2ce/jetified-emoji-0.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8cfde54656804132d7d2d88e3ea1030/jetified-emoji-0.6.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8cfde54656804132d7d2d88e3ea1030/jetified-emoji-0.6.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8cfde54656804132d7d2d88e3ea1030/jetified-emoji-0.6.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/emoji/0.6.0/ee2c6314039f00403b2cf7be684d9cef462a49ac/emoji-0.6.0-javadoc.jar!/" />
