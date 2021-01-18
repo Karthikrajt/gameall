@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.allenliu:AndroidSystemShare:1.0.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45135d8e8d2eb0e36d2802475e165125/jetified-AndroidSystemShare-1.0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45135d8e8d2eb0e36d2802475e165125/jetified-AndroidSystemShare-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45135d8e8d2eb0e36d2802475e165125/jetified-AndroidSystemShare-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45135d8e8d2eb0e36d2802475e165125/jetified-AndroidSystemShare-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.allenliu/AndroidSystemShare/1.0.1/43eb1b83fe02d02e8362708465b917300d36e16d/AndroidSystemShare-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.allenliu/AndroidSystemShare/1.0.1/974829f25162ba9a41d8dc833436d781239e1c67/AndroidSystemShare-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

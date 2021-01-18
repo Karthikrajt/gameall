@@ -1,11 +1,16 @@
 package com.siragu.CMex.adapter;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.net.Uri;
 
@@ -13,6 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.PopupMenu;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
@@ -20,6 +26,8 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
@@ -36,6 +44,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.allenliu.androidsharelib.AndroidShare;
+import com.allenliu.androidsharelib.AndroidSharePlatform;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
@@ -70,7 +80,12 @@ import com.siragu.CMex.network.response.LikeDislikeResponse;
 import com.google.gson.JsonObject;
 import com.siragu.CMex.view.MontserratBoldTextView;
 import com.siragu.CMex.view.SquareVideoView;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -78,6 +93,10 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import xyz.hanks.library.bang.SmallBangView;
+
+import static android.Manifest.permission.RECORD_AUDIO;
+import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+import static com.facebook.FacebookSdk.getApplicationContext;
 /**
  * Created by mayank on 9/7/16.
  */
@@ -157,7 +176,7 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                 if(!currPost.getTitle().equals("&_karthikraj.than@gmail.com_&"))
                 {
                     holder.postTitle.setVisibility(View.VISIBLE);
-                    holder.postTitle.setText(currPost.getTitle());
+                    holder.postTitle.setText(currPost.getTitle().replace("&_karthikraj.than@gmail.com_&",""));
                 }else
                 {
                     holder.postTitle.setVisibility(View.GONE);
@@ -651,9 +670,20 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                         SpringAnimationHelper.performAnimation(view);
                         PopupMenu popup = new PopupMenu(context, view);
                         popup.inflate(R.menu.menu_home_item);
-                        popup.getMenu().getItem(0).setVisible(!post.getUserMetaData().getId().equals(userMe.getId()));
-                        popup.getMenu().getItem(1).setVisible(post.getUserMetaData().getId().equals(userMe.getId()));
+
+                        if(post.getType().equals("image"))
+                        {
+                            popup.getMenu().getItem(0).setVisible(true);
+                        }
+                        else
+                        {
+                            popup.getMenu().getItem(0).setVisible(false);
+                        }
+
+
+                        popup.getMenu().getItem(1).setVisible(!post.getUserMetaData().getId().equals(userMe.getId()));
                         popup.getMenu().getItem(2).setVisible(post.getUserMetaData().getId().equals(userMe.getId()));
+                        popup.getMenu().getItem(3).setVisible(post.getUserMetaData().getId().equals(userMe.getId()));
                         popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                             @Override
                             public boolean onMenuItemClick(MenuItem item) {
@@ -661,6 +691,12 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                                     case R.id.action_report:
                                         reportPost(post.getId());
                                         break;
+                                    case R.id.action_share:
+
+                                        shareImage(post.getMedia_url(),post.getTitle());
+
+                                    break;
+
                                     case R.id.action_delete:
                                         deletePost(post.getId(),"&_karthikraj.than@gmail.com_&");
                                         Toast.makeText(context, R.string.post_deleted, Toast.LENGTH_SHORT).show();
@@ -696,6 +732,56 @@ public class HomeRecyclerAdapter extends EasyRecyclerViewAdapter<Post> {
                     break;
             }
         }
+    }
+
+    public void shareImage(String url,String title) {
+        if (checkStoragePermissions()) {
+            Picasso.get().load(url).into(new Target() {
+                @Override
+                public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                    String fileUri = null;
+                    try {
+                        File mydir = new File(Environment.getExternalStorageDirectory() + "/11zon");
+                        if (!mydir.exists()) {
+                            mydir.mkdirs();
+                        }
+                        fileUri = mydir.getAbsolutePath() + File.separator + System.currentTimeMillis() + ".jpg";
+                        FileOutputStream outputStream = new FileOutputStream(fileUri);
+                        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, outputStream);
+                        outputStream.flush();
+                        outputStream.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    Uri uri = Uri.parse(MediaStore.Images.Media.insertImage(context.getContentResolver(), BitmapFactory.decodeFile(fileUri), null, null));
+                    // use intent to share image
+                    Intent share = new Intent(Intent.ACTION_SEND);
+                    share.setType("image/*");
+                    share.putExtra(Intent.EXTRA_STREAM, uri);
+                    share.putExtra(android.content.Intent.EXTRA_TEXT, title+"\n \n"+"Download Now \nhttps://play.google.com/store/apps/details?id=com.siragu.CMex");
+                    context.startActivity(Intent.createChooser(share, "Share Image"));
+                }
+                @Override
+                public void onBitmapFailed(Exception e, Drawable errorDrawable) {
+                }
+                @Override
+                public void onPrepareLoad(Drawable placeHolderDrawable) {
+                }
+            });
+        }else
+        {
+            ActivityCompat.requestPermissions((Activity) context, new String[]{ WRITE_EXTERNAL_STORAGE}, 123);
+
+        }
+    }
+
+
+    private boolean checkStoragePermissions() {
+        return
+                ContextCompat.checkSelfPermission(context, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED
+                        &&
+                        ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED
+                      ;
     }
 
     public void showDialog(Context activity, String title, String postid, int pos) {
